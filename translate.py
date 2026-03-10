@@ -39,31 +39,38 @@ def main():
     
     translator = GoogleTranslator(source='en', target='tr')
     
-    # Batch çeviri - aynı kelimeleri tekrar çevirme
-    unique_words = list(set(card["text"] for card in cards))
-    translations = {}
+    # Her kartı çevir, cache ile aynı kelimeyi tekrar çevirme
+    cache = {}
     
-    for i, word in enumerate(unique_words, 1):
+    for i, card in enumerate(cards, 1):
+        text = card["text"]
+        
+        if text in cache:
+            card["tr"] = cache[text]
+        else:
+            tr = translate_word(text, translator)
+            cache[text] = tr
+            card["tr"] = tr
+        
         if i % 20 == 0:
-            print(f"  [{i}/{len(unique_words)}] çevrildi...")
+            print(f"  [{i}/{len(cards)}] çevrildi...")
         
-        tr = translate_word(word, translator)
-        translations[word] = tr
-        
-        # Rate limit - çok hızlı gitme
-        if i % 50 == 0:
+        if len(cache) % 50 == 0 and text not in cache:
             time.sleep(1)
     
-    # Çevirileri kartlara ekle
-    for card in cards:
-        card["tr"] = translations.get(card["text"], "")
+    # Çevirisiz kart kalmadığını doğrula
+    missing = [c for c in cards if not c.get("tr")]
+    if missing:
+        print(f"  ⚠️  {len(missing)} kart çevrilemedi, tekrar deneniyor...")
+        for card in missing:
+            card["tr"] = translate_word(card["text"], translator)
     
     # JSON'ı kaydet
     with open(data_file, "w", encoding="utf-8") as f:
         json.dump(cards, f, ensure_ascii=False, indent=2)
     
     print(f"\n{'='*50}")
-    print(f"✅ {len(unique_words)} benzersiz kelime çevrildi")
+    print(f"✅ {len(cards)} kart çevrildi ({len(cache)} benzersiz)")
     print(f"📄 Güncellenmiş: {data_file}")
     print(f"{'='*50}")
     
