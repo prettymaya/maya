@@ -104,6 +104,10 @@ def detect_card_regions(image_path: str) -> list[dict]:
     
     cards.sort(key=lambda c: (c["y"], c["x"]))
     
+    # Çok küçük bölgeleri filtrele (gürültü/kenar parçaları)
+    # Normal kartlar ~35000px alan ve ~300px genişlik
+    cards = [c for c in cards if c["w"] * c["h"] > 20000 and c["w"] > 200]
+    
     return cards
 
 
