@@ -1,8 +1,11 @@
 """
-Card Cropper
-=============
-Fotoğraflardaki mavi kutucukları (kartları) tek tek keser ve kaydeder.
-Ayrıca viewer.html için gerekli JSON verisini oluşturur.
+Card Cropper + OCR
+==================
+Fotoğrafları matematiksel grid ile 3x8 = 24 karta böler.
+Her kartı OCR ile okur, cards/ klasörüne kaydeder.
+Ayrıca word_list_ocr.txt ve cards_data.json oluşturur.
+
+Tüm fotoğraflar 1130x934 piksel, 3 sütun x 8 satır grid.
 
 Kullanım:
     .venv/bin/python crop_cards.py
@@ -12,9 +15,9 @@ import os
 import json
 import glob
 import re
+import math
 from pathlib import Path
 
-import numpy as np
 from PIL import Image
 
 import Vision
@@ -22,108 +25,48 @@ import Quartz
 from Foundation import NSURL
 
 
-def detect_card_regions(image_path: str) -> list[dict]:
-    """Fotoğraftaki kart bölgelerini tespit eder.
-    Hem mavi hem yeşil kartları yakalar.
-    """
-    img = Image.open(image_path)
-    arr = np.array(img)
-    
-    r, g, b = arr[:,:,0].astype(int), arr[:,:,1].astype(int), arr[:,:,2].astype(int)
-    
-    # Mavi kart maskesi
-    blue_mask = (b > 100) & (b > r + 15) & (r < 180) & (g < 180)
-    
-    # Yeşil kart maskesi
-    green_mask = (g > 100) & (g > r) & (g > b - 30) & (r < 180)
-    
-    # Birleşik maske
-    card_mask = (blue_mask | green_mask).astype(np.uint8)
-    
-    h, w = card_mask.shape
-    
-    # Yatay projeksiyon
-    h_proj = np.sum(card_mask, axis=1)
-    h_threshold = w * 0.10
-    
-    # Satır bölgelerini bul
-    in_row = False
-    row_regions = []
-    row_start = 0
-    
-    for y in range(h):
-        if h_proj[y] > h_threshold and not in_row:
-            in_row = True
-            row_start = y
-        elif h_proj[y] <= h_threshold and in_row:
-            in_row = False
-            row_h = y - row_start
-            if row_h > 15:
-                row_regions.append((row_start, y))
-    
-    if in_row:
-        row_h = h - row_start
-        if row_h > 15:
-            row_regions.append((row_start, h))
-    
-    # Her satır içinde sütunları bul
+# Grid yapısı (tüm fotoğraflar için sabit)
+# Boşluk koordinatları analiz sonucu:
+# Yatay boşluklar: y=0-6, 116-123, 233-240, 350-358, 467-475, 584-592, 701-709, 818-826, 926-933
+# Dikey boşluklar: x=0-14, 375-383, 743-751, 1112-1129
+
+COLS = [
+    (15, 374),    # Sütun 1
+    (384, 742),   # Sütun 2
+    (752, 1111),  # Sütun 3
+]
+
+ROWS = [
+    (7, 115),     # Satır 1
+    (124, 232),   # Satır 2
+    (241, 349),   # Satır 3
+    (359, 466),   # Satır 4
+    (476, 583),   # Satır 5
+    (593, 700),   # Satır 6
+    (710, 817),   # Satır 7
+    (827, 925),   # Satır 8
+]
+
+CARDS_PER_IMAGE = len(ROWS) * len(COLS)  # 24
+
+
+def get_card_regions() -> list[dict]:
+    """Grid koordinatlarından kart bölgelerini döndürür. Satır satır, soldan sağa."""
     cards = []
-    
-    for row_top, row_bottom in row_regions:
-        row_slice = card_mask[row_top:row_bottom, :]
-        v_proj = np.sum(row_slice, axis=0)
-        v_threshold = (row_bottom - row_top) * 0.10
-        
-        in_col = False
-        col_start = 0
-        
-        for x in range(w):
-            if v_proj[x] > v_threshold and not in_col:
-                in_col = True
-                col_start = x
-            elif v_proj[x] <= v_threshold and in_col:
-                in_col = False
-                col_w = x - col_start
-                if col_w > 50:
-                    cards.append({
-                        "x": col_start,
-                        "y": row_top,
-                        "w": col_w,
-                        "h": row_bottom - row_top
-                    })
-        
-        if in_col:
-            col_w = w - col_start
-            if col_w > 50:
-                cards.append({
-                    "x": col_start,
-                    "y": row_top,
-                    "w": col_w,
-                    "h": row_bottom - row_top
-                })
-    
-    cards.sort(key=lambda c: (c["y"], c["x"]))
-    
-    # Çok küçük bölgeleri filtrele (gürültü/kenar parçaları)
-    # Normal kartlar ~35000px alan ve ~300px genişlik
-    cards = [c for c in cards if c["w"] * c["h"] > 20000 and c["w"] > 200]
-    
+    for row_top, row_bottom in ROWS:
+        for col_left, col_right in COLS:
+            cards.append({
+                "x": col_left,
+                "y": row_top,
+                "w": col_right - col_left + 1,
+                "h": row_bottom - row_top + 1
+            })
     return cards
 
 
-def extract_text_from_region(image_path: str, region: dict) -> str:
-    """Belirli bir bölgedeki metni OCR ile çıkarır."""
-    img = Image.open(image_path)
-    cropped = img.crop((
-        region["x"], region["y"],
-        region["x"] + region["w"],
-        region["y"] + region["h"]
-    ))
-    
-    tmp_path = "/tmp/_ocr_temp_card.png"
-    cropped.save(tmp_path)
-    
-    image_url = NSURL.fileURLWithPath_(tmp_path)
+def extract_text_from_image(img_path: str) -> str:
+    """Bir bölge resminden OCR ile metin çıkarır."""
+    image_url = NSURL.fileURLWithPath_(img_path)
     ci_image = Quartz.CIImage.imageWithContentsOfURL_(image_url)
     if ci_image is None:
         return ""
@@ -145,13 +88,9 @@ def extract_text_from_region(image_path: str, region: dict) -> str:
             texts.append(text)
     
     result = " ".join(texts).strip()
+    # Trailing single char cleanup (emoji OCR artifacts)
     result = re.sub(r'\s+[A-Za-z]$', '', result)
     result = result.rstrip(":.")
-    
-    try:
-        os.remove(tmp_path)
-    except:
-        pass
     
     return result.upper()
 
@@ -165,48 +104,54 @@ def main():
     for old_card in cards_dir.glob("card_*.png"):
         old_card.unlink()
     
-    extensions = ["*.png", "*.jpg", "*.jpeg", "*.webp", "*.bmp", "*.tiff"]
-    
-    image_files = []
-    for ext in extensions:
-        image_files.extend(glob.glob(str(script_dir / ext)))
-    image_files.sort()
+    # Sadece Screenshot dosyalarını al (icon.png gibi dosyaları atlayarak)
+    image_files = sorted(glob.glob(str(script_dir / "Screenshot*.png")))
     
     if not image_files:
-        print("❌ Klasörde resim dosyası bulunamadı!")
+        print("❌ Klasörde Screenshot dosyası bulunamadı!")
         return
     
-    print(f"📸 {len(image_files)} resim bulundu.\n")
+    print(f"📸 {len(image_files)} fotoğraf bulundu")
+    print(f"📐 Grid: {len(COLS)}x{len(ROWS)} = {CARDS_PER_IMAGE} kart/fotoğraf")
+    print(f"📊 Beklenen toplam: {len(image_files) * CARDS_PER_IMAGE} kart\n")
     
+    regions = get_card_regions()
     all_cards = []
+    all_words = []
     card_index = 0
+    tmp_path = "/tmp/_ocr_temp_card.png"
     
     for i, img_path in enumerate(image_files, 1):
         filename = os.path.basename(img_path)
-        print(f"[{i}/{len(image_files)}] İşleniyor: {filename}")
+        print(f"[{i}/{len(image_files)}] {filename}")
         
         img = Image.open(img_path)
-        regions = detect_card_regions(img_path)
-        print(f"  📦 {len(regions)} kart tespit edildi")
+        img_w, img_h = img.size
         
         for region in regions:
             card_index += 1
             
-            card_img = img.crop((
-                region["x"], region["y"],
-                region["x"] + region["w"],
-                region["y"] + region["h"]
-            ))
+            # Kartı kırp (resim sınırlarını aşmamaya dikkat et)
+            x1 = min(region["x"], img_w)
+            y1 = min(region["y"], img_h)
+            x2 = min(region["x"] + region["w"], img_w)
+            y2 = min(region["y"] + region["h"], img_h)
             
-            text = extract_text_from_region(img_path, region)
+            card_img = img.crop((x1, y1, x2, y2))
+            
+            # Geçici dosyaya kaydet, OCR yap
+            card_img.save(tmp_path, "PNG")
+            text = extract_text_from_image(tmp_path)
             
             if not text:
                 text = f"CARD_{card_index}"
             
+            # Dosya adı oluştur
             safe_name = text.lower().replace(" ", "_").replace("'", "")
-            safe_name = re.sub(r'[^a-z0-9_]', '', safe_name)
+            safe_name = re.sub(r'[^a-z0-9_]', '', safe_name)[:40]
             card_filename = f"card_{card_index:03d}_{safe_name}.png"
             
+            # Kartı kaydet
             card_path = cards_dir / card_filename
             card_img.save(str(card_path), "PNG")
             
@@ -215,18 +160,46 @@ def main():
                 "text": text,
                 "index": card_index
             })
+            
+            all_words.append(text)
         
-        print(f"  ✅ {len(regions)} kart kaydedildi")
+        print(f"  ✅ {CARDS_PER_IMAGE} kart kesildi")
     
-    # JSON veri dosyası
+    # Geçici dosyayı temizle
+    try:
+        os.remove(tmp_path)
+    except:
+        pass
+    
+    # --- JSON veri dosyası (viewer için) ---
     data_file = script_dir / "cards_data.json"
     with open(data_file, "w", encoding="utf-8") as f:
         json.dump(all_cards, f, ensure_ascii=False, indent=2)
     
+    # --- word_list_ocr.txt (50'li gruplar) ---
+    unique_words = list(dict.fromkeys(all_words))  # Sırayı koruyarak unique yap
+    
+    total_pages = math.ceil(len(unique_words) / 50)
+    
+    txt_file = script_dir / "word_list_ocr.txt"
+    with open(txt_file, "w", encoding="utf-8") as f:
+        for page in range(total_pages):
+            start = page * 50
+            end = min(start + 50, len(unique_words))
+            
+            for word in unique_words[start:end]:
+                f.write(word + "\n")
+            
+            f.write(f"\n--- {total_pages}/{page + 1} ---\n\n")
+    
     print(f"\n{'='*50}")
     print(f"✅ Toplam {card_index} kart kesildi ve kaydedildi")
+    print(f"✅ {len(all_words)} toplam kelime çıkarıldı")
+    print(f"✅ {len(unique_words)} benzersiz kelime yazıldı")
+    print(f"📑 Sayfa: {total_pages} ({total_pages-1}x50 + {len(unique_words) - (total_pages-1)*50})")
     print(f"📁 Kartlar: {cards_dir}/")
-    print(f"📄 Veri: {data_file}")
+    print(f"📄 JSON: {data_file}")
+    print(f"📄 TXT: {txt_file}")
     print(f"{'='*50}")
 
 
