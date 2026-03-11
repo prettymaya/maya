@@ -142,6 +142,44 @@
 
         .swipe-hint { display:none; font-size:11px; color:#3a4a5a; text-align:center; }
 
+        /* Kelime arama */
+        .search-bar {
+            position:fixed; bottom:46px; left:50%; transform:translateX(-50%);
+            display:flex; gap:6px; align-items:center; z-index:15;
+            background:rgba(15,20,35,0.95); border:1px solid rgba(168,85,247,0.2);
+            border-radius:12px; padding:5px 6px 5px 14px; max-width:460px; width:90%;
+            backdrop-filter:blur(8px);
+        }
+        .search-bar input {
+            flex:1; background:none; border:none; color:#e0e0e0; font-size:14px;
+            font-family:'Inter',sans-serif; outline:none;
+        }
+        .search-bar input::placeholder { color:#445566; }
+        .search-bar button {
+            padding:6px 12px; border:none; border-radius:8px; background:#a855f7;
+            color:white; font-family:'Inter',sans-serif; font-size:12px;
+            font-weight:700; cursor:pointer; white-space:nowrap;
+        }
+        .search-bar button:hover { background:#9333ea; }
+        .lookup-result {
+            position:fixed; bottom:90px; left:50%; transform:translateX(-50%);
+            max-width:460px; width:90%; z-index:15;
+            font-size:12px; color:#c4b5fd; text-align:left; line-height:1.6;
+            padding:0; background:rgba(168,85,247,0.08);
+            border:1px solid rgba(168,85,247,0.2); border-radius:12px;
+            max-height:0; overflow:hidden; opacity:0;
+            transition:max-height 0.4s ease,opacity 0.3s ease,padding 0.3s ease;
+            user-select:text; cursor:text;
+        }
+        .lookup-result.visible { max-height:250px; opacity:1; padding:12px 16px; overflow-y:auto; }
+        .lookup-result strong { color:#a855f7; }
+        .lookup-result em { color:#818cf8; font-style:normal; }
+        .lookup-result .lookup-word { font-size:14px; font-weight:700; color:#a855f7; margin-bottom:6px; }
+        .lookup-result .close-btn {
+            position:absolute; top:6px; right:8px; background:none; border:none;
+            color:#667799; font-size:14px; cursor:pointer;
+        }
+
         /* Modal */
         .modal-overlay {
             position:fixed; inset:0; background:rgba(0,0,0,0.7); z-index:100;
@@ -220,6 +258,12 @@
 
 <div class="cards-container" id="cards-container">
     <div class="empty-state"><h2>Yükleniyor...</h2></div>
+</div>
+
+<div class="lookup-result" id="lookup-result"></div>
+<div class="search-bar" onclick="event.stopPropagation();">
+    <input type="text" id="search-input" placeholder="Kelime yaz, Enter bas..." autocomplete="off">
+    <button onclick="doLookup()">✨ Ara</button>
 </div>
 
 <div class="bottom-bar">
@@ -440,6 +484,59 @@ function showAiResult(position, html) {
     el.innerHTML = html;
     el.classList.add('visible');
 }
+
+// Kelime arama
+function doLookup() {
+    var input = document.getElementById('search-input');
+    var word = input.value.trim();
+    if (!word) return;
+    if (!apiKey) { showApiModal(); return; }
+
+    var lr = document.getElementById('lookup-result');
+    lr.innerHTML = '<div class="lookup-word">' + word.toUpperCase() + '</div>⏳ Sorgulanıyor...';
+    lr.classList.add('visible');
+
+    var prompt = 'İngilizce kelime/ifade: "' + word + '"\n\n' +
+        'Bu kelimenin/ifadenin Türkçe karşılığını ver. Kurallar:\n' +
+        '1. En yaygın 4 anlamını yaz (varsa). Her anlam için kelime türünü belirt (isim, fiil, sıfat vs.)\n' +
+        '2. Çok doğal, günlük Türkçe kullan\n' +
+        '3. Eğer bu bir deyim/idiom ise kısa ve net açıkla\n' +
+        '4. Eğer tek kelimeyle açıklanamıyorsa çok kısa bir açıklama ekle\n' +
+        '5. Cevabı şu formatta ver, başka bir şey yazma:\n\n' +
+        '1. [tür] anlam\n2. [tür] anlam\n3. [tür] anlam\n4. [tür] anlam\n' +
+        '(varsa) 💡 kısa açıklama';
+
+    var body = { contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.3, maxOutputTokens: 200 } };
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=' + apiKey, true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            var resp = JSON.parse(xhr.responseText);
+            var text = '';
+            try { text = resp.candidates[0].content.parts[0].text; } catch(e) { text = 'Yanıt alınamadı'; }
+            lr.innerHTML = '<button class="close-btn" onclick="closeLookup()">✕</button><div class="lookup-word">' + word.toUpperCase() + '</div>' + formatAiResponse(text);
+        } else {
+            var errMsg = 'Hata: ' + xhr.status;
+            try { errMsg = JSON.parse(xhr.responseText).error.message; } catch(e) {}
+            lr.innerHTML = '<button class="close-btn" onclick="closeLookup()">✕</button><strong style="color:#ef4444">⚠️ ' + errMsg + '</strong>';
+        }
+    };
+    xhr.onerror = function() {
+        lr.innerHTML = '<button class="close-btn" onclick="closeLookup()">✕</button><strong style="color:#ef4444">Bağlantı hatası</strong>';
+    };
+    xhr.send(JSON.stringify(body));
+    input.value = '';
+}
+
+function closeLookup() {
+    document.getElementById('lookup-result').classList.remove('visible');
+}
+
+document.getElementById('search-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') { e.preventDefault(); doLookup(); }
+    e.stopPropagation();
+});
 
 // Navigation
 document.addEventListener('keydown', function(e) {

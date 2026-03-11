@@ -23,10 +23,12 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 import urllib.parse
 
 from PIL import Image
+import easyocr
 
-import Vision
-import Quartz
-from Foundation import NSURL
+# EasyOCR reader
+print("🔄 OCR modeli yükleniyor...")
+READER = easyocr.Reader(['en'], gpu=False, verbose=False)
+print("✅ OCR hazır\n")
 
 SCRIPT_DIR = Path(__file__).parent
 CARDS_DIR = SCRIPT_DIR / "cards"
@@ -36,27 +38,11 @@ CARD_INDEX = 0
 
 
 def extract_text_from_image(img_path):
-    image_url = NSURL.fileURLWithPath_(img_path)
-    ci_image = Quartz.CIImage.imageWithContentsOfURL_(image_url)
-    if ci_image is None:
+    """EasyOCR ile metin çıkarır. Kart başı işler, tüm satırları birleştirir."""
+    results = READER.readtext(img_path, detail=0, paragraph=True)
+    if not results:
         return ""
-    handler = Vision.VNImageRequestHandler.alloc().initWithCIImage_options_(ci_image, None)
-    request = Vision.VNRecognizeTextRequest.alloc().init()
-    request.setRecognitionLevel_(Vision.VNRequestTextRecognitionLevelAccurate)
-    request.setRecognitionLanguages_(["en"])
-    request.setUsesLanguageCorrection_(True)
-    success, error = handler.performRequests_error_([request], None)
-    if not success:
-        return ""
-    texts = []
-    for obs in request.results():
-        text = obs.topCandidates_(1)[0].string().strip()
-        if text:
-            texts.append(text)
-    result = " ".join(texts).strip()
-    result = re.sub(r'\s+[A-Za-z]$', '', result)
-    result = result.rstrip(":.")
-    return result.upper()
+    return " ".join(results).strip().upper()
 
 
 def process_image(img_path, grid):

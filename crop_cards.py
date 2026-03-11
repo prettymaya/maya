@@ -19,17 +19,15 @@ import math
 from pathlib import Path
 
 from PIL import Image
+import easyocr
 
-import Vision
-import Quartz
-from Foundation import NSURL
+# EasyOCR reader (ilk çalıştırmada model indirir)
+print("🔄 OCR modeli yükleniyor...")
+READER = easyocr.Reader(['en'], gpu=False, verbose=False)
+print("✅ OCR hazır\n")
 
 
 # Grid yapısı (tüm fotoğraflar için sabit)
-# Boşluk koordinatları analiz sonucu:
-# Yatay boşluklar: y=0-6, 116-123, 233-240, 350-358, 467-475, 584-592, 701-709, 818-826, 926-933
-# Dikey boşluklar: x=0-14, 375-383, 743-751, 1112-1129
-
 COLS = [
     (15, 374),    # Sütun 1
     (384, 742),   # Sütun 2
@@ -51,7 +49,7 @@ CARDS_PER_IMAGE = len(ROWS) * len(COLS)  # 24
 
 
 def get_card_regions() -> list[dict]:
-    """Grid koordinatlarından kart bölgelerini döndürür. Satır satır, soldan sağa."""
+    """Grid koordinatlarından kart bölgelerini döndürür."""
     cards = []
     for row_top, row_bottom in ROWS:
         for col_left, col_right in COLS:
@@ -65,34 +63,11 @@ def get_card_regions() -> list[dict]:
 
 
 def extract_text_from_image(img_path: str) -> str:
-    """Bir bölge resminden OCR ile metin çıkarır."""
-    image_url = NSURL.fileURLWithPath_(img_path)
-    ci_image = Quartz.CIImage.imageWithContentsOfURL_(image_url)
-    if ci_image is None:
+    """EasyOCR ile metin çıkarır. Kart başı işler, tüm satırları birleştirir."""
+    results = READER.readtext(img_path, detail=0, paragraph=True)
+    if not results:
         return ""
-    
-    handler = Vision.VNImageRequestHandler.alloc().initWithCIImage_options_(ci_image, None)
-    request = Vision.VNRecognizeTextRequest.alloc().init()
-    request.setRecognitionLevel_(Vision.VNRequestTextRecognitionLevelAccurate)
-    request.setRecognitionLanguages_(["en"])
-    request.setUsesLanguageCorrection_(True)
-    
-    success, error = handler.performRequests_error_([request], None)
-    if not success:
-        return ""
-    
-    texts = []
-    for obs in request.results():
-        text = obs.topCandidates_(1)[0].string().strip()
-        if text:
-            texts.append(text)
-    
-    result = " ".join(texts).strip()
-    # Trailing single char cleanup (emoji OCR artifacts)
-    result = re.sub(r'\s+[A-Za-z]$', '', result)
-    result = result.rstrip(":.")
-    
-    return result.upper()
+    return " ".join(results).strip().upper()
 
 
 def main():
