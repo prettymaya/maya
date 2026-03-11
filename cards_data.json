@@ -1,2882 +1,3170 @@
 [
   {
-    "file": "card_001_foster.png",
-    "text": "FOSTER",
+    "file": "card_001_incomplete.png",
+    "text": "INCOMPLETE",
     "index": 1,
-    "tr": "bakmak"
+    "tr": "tamamlanmamış"
   },
   {
-    "file": "card_002_envy.png",
-    "text": "ENVY",
+    "file": "card_002_jet.png",
+    "text": "JET",
     "index": 2,
-    "tr": "imrenmek"
+    "tr": "jet"
   },
   {
-    "file": "card_003_plug_socket.png",
-    "text": "PLUG SOCKET",
+    "file": "card_003_instruct.png",
+    "text": "INSTRUCT",
     "index": 3,
-    "tr": "priz"
+    "tr": "talimat vermek"
   },
   {
-    "file": "card_004_grind.png",
-    "text": "GRIND",
+    "file": "card_004_investigator.png",
+    "text": "INVESTIGATOR",
     "index": 4,
-    "tr": "öğütmek"
+    "tr": "araştırmacı"
   },
   {
-    "file": "card_005_eloquent.png",
-    "text": "ELOQUENT",
+    "file": "card_005_ingredient.png",
+    "text": "INGREDIENT",
     "index": 5,
-    "tr": "anlamlı"
+    "tr": "bileşen"
   },
   {
-    "file": "card_006_ferry.png",
-    "text": "FERRY",
+    "file": "card_006_intelligent.png",
+    "text": "INTELLIGENT",
     "index": 6,
-    "tr": "feribot"
+    "tr": "zeki"
   },
   {
-    "file": "card_007_hurricane.png",
-    "text": "HURRICANE",
+    "file": "card_007_killer.png",
+    "text": "KILLER",
     "index": 7,
-    "tr": "kasırga"
+    "tr": "katil"
   },
   {
-    "file": "card_008_impatient.png",
-    "text": "IMPATIENT",
+    "file": "card_008_landlord.png",
+    "text": "LANDLORD",
     "index": 8,
-    "tr": "sabırsız"
+    "tr": "ev sahibi"
   },
   {
-    "file": "card_009_monument.png",
-    "text": "MONUMENT",
+    "file": "card_009_lobby.png",
+    "text": "LOBBY",
     "index": 9,
-    "tr": "anıt"
+    "tr": "lobi"
   },
   {
-    "file": "card_010_kit.png",
-    "text": "KIT",
+    "file": "card_010_lately.png",
+    "text": "LATELY",
     "index": 10,
-    "tr": "kiti"
+    "tr": "son zamanlarda"
   },
   {
-    "file": "card_011_smack_in_the_middle.png",
-    "text": "SMACK IN THE MIDDLE",
+    "file": "card_011_graceful.png",
+    "text": "GRACEFUL",
     "index": 11,
-    "tr": "ortasına şaplak atmak"
+    "tr": "zarif"
   },
   {
-    "file": "card_012_off_the_top_of_my_head.png",
-    "text": "OFF THE TOP OF MY HEAD",
+    "file": "card_012_ced_junk.png",
+    "text": "CED JUNK",
     "index": 12,
-    "tr": "başımın üstünden"
+    "tr": "hurda"
   },
   {
-    "file": "card_013_cover_up.png",
-    "text": "COVER UP",
+    "file": "card_013_mill.png",
+    "text": "MILL",
     "index": 13,
-    "tr": "Örtmek"
+    "tr": "değirmen"
   },
   {
-    "file": "card_014_orchestra.png",
-    "text": "ORCHESTRA",
+    "file": "card_014_loser.png",
+    "text": "LOSER",
     "index": 14,
-    "tr": "orkestra"
+    "tr": "beceriksiz"
   },
   {
-    "file": "card_015_parade.png",
-    "text": "PARADE",
+    "file": "card_015_logo.png",
+    "text": "LOGO",
     "index": 15,
-    "tr": "geçit töreni"
+    "tr": "logo"
   },
   {
-    "file": "card_016_patience.png",
-    "text": "PATIENCE",
+    "file": "card_016_loyal.png",
+    "text": "LOYAL",
     "index": 16,
-    "tr": "sabır"
-  },
-  {
-    "file": "card_017_nutrition.png",
-    "text": "NUTRITION",
-    "index": 17,
-    "tr": "beslenme"
-  },
-  {
-    "file": "card_018_refresh.png",
-    "text": "REFRESH",
-    "index": 18,
-    "tr": "yenileme"
-  },
-  {
-    "file": "card_019_balcony.png",
-    "text": "BALCONY",
-    "index": 19,
-    "tr": "balkon"
-  },
-  {
-    "file": "card_020_tile.png",
-    "text": "TILE",
-    "index": 20,
-    "tr": "kiremit"
-  },
-  {
-    "file": "card_021_badge.png",
-    "text": "BADGE",
-    "index": 21,
-    "tr": "rozet"
-  },
-  {
-    "file": "card_022_statue.png",
-    "text": "STATUE",
-    "index": 22,
-    "tr": "heykel"
-  },
-  {
-    "file": "card_023_allergy.png",
-    "text": "ALLERGY",
-    "index": 23,
-    "tr": "alerji"
-  },
-  {
-    "file": "card_024_crane_xxxxx.png",
-    "text": "CRANE XXXXX",
-    "index": 24,
-    "tr": "vinç xxxxx"
-  },
-  {
-    "file": "card_025_fountain.png",
-    "text": "FOUNTAIN",
-    "index": 25,
-    "tr": "çeşme"
-  },
-  {
-    "file": "card_026_hike.png",
-    "text": "HIKE",
-    "index": 26,
-    "tr": "yürüyüş"
-  },
-  {
-    "file": "card_027_circus.png",
-    "text": "CIRCUS",
-    "index": 27,
-    "tr": "sirk"
-  },
-  {
-    "file": "card_028_hiker.png",
-    "text": "HIKER",
-    "index": 28,
-    "tr": "uzun yürüyüşe çıkan kimse"
-  },
-  {
-    "file": "card_029_fasten.png",
-    "text": "FASTEN",
-    "index": 29,
-    "tr": "tutturmak"
-  },
-  {
-    "file": "card_030_medication.png",
-    "text": "MEDICATION",
-    "index": 30,
-    "tr": "ilaç tedavisi"
-  },
-  {
-    "file": "card_031_intersection.png",
-    "text": "INTERSECTION",
-    "index": 31,
-    "tr": "kavşak"
-  },
-  {
-    "file": "card_032_massage.png",
-    "text": "MASSAGE",
-    "index": 32,
-    "tr": "masaj"
-  },
-  {
-    "file": "card_033_microphone.png",
-    "text": "MICROPHONE",
-    "index": 33,
-    "tr": "mikrofon"
-  },
-  {
-    "file": "card_034_microscope.png",
-    "text": "MICROSCOPE®",
-    "index": 34,
-    "tr": "mikroskop®"
-  },
-  {
-    "file": "card_035_salon.png",
-    "text": "SALON",
-    "index": 35,
-    "tr": "salon"
-  },
-  {
-    "file": "card_036_plumber.png",
-    "text": "PLUMBER",
-    "index": 36,
-    "tr": "tesisatçı"
-  },
-  {
-    "file": "card_037_reunion.png",
-    "text": "REUNION",
-    "index": 37,
-    "tr": "yeniden birleşme"
-  },
-  {
-    "file": "card_038_pastry.png",
-    "text": "PASTRY",
-    "index": 38,
-    "tr": "pasta"
-  },
-  {
-    "file": "card_039_modem.png",
-    "text": "MODEM",
-    "index": 39,
-    "tr": "modem"
-  },
-  {
-    "file": "card_040_spa.png",
-    "text": "SPA",
-    "index": 40,
-    "tr": "spa"
-  },
-  {
-    "file": "card_041_vegetarian.png",
-    "text": "VEGETARIAN",
-    "index": 41,
-    "tr": "vejetaryen"
-  },
-  {
-    "file": "card_042_technician.png",
-    "text": "TECHNICIAN",
-    "index": 42,
-    "tr": "teknisyen"
-  },
-  {
-    "file": "card_043_tow.png",
-    "text": "TOW",
-    "index": 43,
-    "tr": "çekici"
-  },
-  {
-    "file": "card_044_spectator.png",
-    "text": "SPECTATOR",
-    "index": 44,
-    "tr": "seyirci"
-  },
-  {
-    "file": "card_045_underline.png",
-    "text": "UNDERLINE",
-    "index": 45,
-    "tr": "altı çizili"
-  },
-  {
-    "file": "card_046_violin.png",
-    "text": "VIOLIN",
-    "index": 46,
-    "tr": "keman"
-  },
-  {
-    "file": "card_047_booth.png",
-    "text": "BOOTH",
-    "index": 47,
-    "tr": "çardak"
-  },
-  {
-    "file": "card_048_wrinkle.png",
-    "text": "WRINKLE",
-    "index": 48,
-    "tr": "kırışıklık"
-  },
-  {
-    "file": "card_049_briefcase.png",
-    "text": "BRIEFCASE",
-    "index": 49,
-    "tr": "evrak çantası"
-  },
-  {
-    "file": "card_050_browse.png",
-    "text": "BROWSE",
-    "index": 50,
-    "tr": "göz at"
-  },
-  {
-    "file": "card_051_handbook.png",
-    "text": "HANDBOOK",
-    "index": 51,
-    "tr": "el kitabı"
-  },
-  {
-    "file": "card_052_carpenter.png",
-    "text": "CARPENTER",
-    "index": 52,
-    "tr": "marangoz"
-  },
-  {
-    "file": "card_053_diploma.png",
-    "text": "DIPLOMA",
-    "index": 53,
-    "tr": "diploma"
-  },
-  {
-    "file": "card_054_disconnect.png",
-    "text": "DISCONNECT",
-    "index": 54,
-    "tr": "bağlantıyı kes"
-  },
-  {
-    "file": "card_055_excursion.png",
-    "text": "EXCURSION",
-    "index": 55,
-    "tr": "gezi"
-  },
-  {
-    "file": "card_056_pant.png",
-    "text": "PANT",
-    "index": 56,
-    "tr": "pantolon"
-  },
-  {
-    "file": "card_057_internship.png",
-    "text": "INTERNSHIP",
-    "index": 57,
-    "tr": "staj"
-  },
-  {
-    "file": "card_058_hygiene.png",
-    "text": "HYGIENE",
-    "index": 58,
-    "tr": "hijyen"
-  },
-  {
-    "file": "card_059_luggage.png",
-    "text": "LUGGAGE",
-    "index": 59,
-    "tr": "bagaj"
-  },
-  {
-    "file": "card_060_locker.png",
-    "text": "LOCKER",
-    "index": 60,
-    "tr": "soyunma"
-  },
-  {
-    "file": "card_061_kilogram.png",
-    "text": "KILOGRAM",
-    "index": 61,
-    "tr": "kilogram"
-  },
-  {
-    "file": "card_062_subway.png",
-    "text": "SUBWAY",
-    "index": 62,
-    "tr": "metro"
-  },
-  {
-    "file": "card_063_extinguisher.png",
-    "text": "EXTINGUISHER",
-    "index": 63,
-    "tr": "söndürücü"
-  },
-  {
-    "file": "card_064_photocopier.png",
-    "text": "PHOTOCOPIER",
-    "index": 64,
-    "tr": "fotokopi makinesi"
-  },
-  {
-    "file": "card_065_misplace.png",
-    "text": "MISPLACE",
-    "index": 65,
-    "tr": "yanlış yere koymak"
-  },
-  {
-    "file": "card_066_teller.png",
-    "text": "TELLER",
-    "index": 66,
-    "tr": "veznedar"
-  },
-  {
-    "file": "card_067_projector.png",
-    "text": "PROJECTOR",
-    "index": 67,
-    "tr": "projektör"
-  },
-  {
-    "file": "card_068_stationery.png",
-    "text": "STATIONERY",
-    "index": 68,
-    "tr": "kırtasiye"
-  },
-  {
-    "file": "card_069_upcoming.png",
-    "text": "UPCOMING",
-    "index": 69,
-    "tr": "yaklaşan"
-  },
-  {
-    "file": "card_070_gasoline.png",
-    "text": "GASOLINE",
-    "index": 70,
-    "tr": "benzin"
-  },
-  {
-    "file": "card_071_cafeteria.png",
-    "text": "CAFETERIA",
-    "index": 71,
-    "tr": "kafeterya"
-  },
-  {
-    "file": "card_072_footwear.png",
-    "text": "FOOTWEAR",
-    "index": 72,
-    "tr": "ayakkabı"
-  },
-  {
-    "file": "card_073_dishwasher.png",
-    "text": "DISHWASHER",
-    "index": 73,
-    "tr": "bulaşık makinesi"
-  },
-  {
-    "file": "card_074_yoga.png",
-    "text": "YOGA",
-    "index": 74,
-    "tr": "yoga"
-  },
-  {
-    "file": "card_075_escalator.png",
-    "text": "ESCALATOR",
-    "index": 75,
-    "tr": "yürüyen merdiven"
-  },
-  {
-    "file": "card_076_airfare.png",
-    "text": "AIRFARE",
-    "index": 76,
-    "tr": "uçak bileti"
-  },
-  {
-    "file": "card_077_businessperson.png",
-    "text": "BUSINESSPERSON",
-    "index": 77,
-    "tr": "iş adamı"
-  },
-  {
-    "file": "card_078_housekeeper.png",
-    "text": "HOUSEKEEPER",
-    "index": 78,
-    "tr": "kahya"
-  },
-  {
-    "file": "card_079_newsstand.png",
-    "text": "NEWSSTAND",
-    "index": 79,
-    "tr": "gazete bayisi"
-  },
-  {
-    "file": "card_080_incoming.png",
-    "text": "INCOMING",
-    "index": 80,
-    "tr": "gelen"
-  },
-  {
-    "file": "card_081_lifeguard.png",
-    "text": "LIFEGUARD",
-    "index": 81,
-    "tr": "Cankurtaran"
-  },
-  {
-    "file": "card_082_hardworking.png",
-    "text": "HARDWORKING",
-    "index": 82,
-    "tr": "Çalışkan"
-  },
-  {
-    "file": "card_083_someday.png",
-    "text": "SOMEDAY",
-    "index": 83,
-    "tr": "bir gün"
-  },
-  {
-    "file": "card_084_paperwork.png",
-    "text": "PAPERWORK",
-    "index": 84,
-    "tr": "evrak işi"
-  },
-  {
-    "file": "card_085_showroom.png",
-    "text": "SHOWROOM",
-    "index": 85,
-    "tr": "showroom"
-  },
-  {
-    "file": "card_086_sightsee.png",
-    "text": "SIGHTSEE",
-    "index": 86,
-    "tr": "gezi"
-  },
-  {
-    "file": "card_087_paycheck.png",
-    "text": "PAYCHECK",
-    "index": 87,
-    "tr": "maaş çeki"
-  },
-  {
-    "file": "card_088_walkway.png",
-    "text": "WALKWAY",
-    "index": 88,
-    "tr": "geçit"
-  },
-  {
-    "file": "card_089_storeroom.png",
-    "text": "STOREROOM",
-    "index": 89,
-    "tr": "depo"
-  },
-  {
-    "file": "card_090_thunderstorm.png",
-    "text": "THUNDERSTORM",
-    "index": 90,
-    "tr": "fırtına"
-  },
-  {
-    "file": "card_091_wildlife.png",
-    "text": "WILDLIFE",
-    "index": 91,
-    "tr": "yaban hayatı"
-  },
-  {
-    "file": "card_092_renter.png",
-    "text": "RENTER",
-    "index": 92,
-    "tr": "kiracı"
-  },
-  {
-    "file": "card_093_checkup.png",
-    "text": "CHECKUP",
-    "index": 93,
-    "tr": "kontrol etmek"
-  },
-  {
-    "file": "card_094_according_to.png",
-    "text": "ACCORDING TO",
-    "index": 94,
-    "tr": "buna göre"
-  },
-  {
-    "file": "card_095_repairperson.png",
-    "text": "REPAIRPERSON",
-    "index": 95,
-    "tr": "tamirci"
-  },
-  {
-    "file": "card_096_amazed.png",
-    "text": "AMAZED",
-    "index": 96,
-    "tr": "hayret"
-  },
-  {
-    "file": "card_097_advertising.png",
-    "text": "ADVERTISING",
-    "index": 97,
-    "tr": "reklam"
-  },
-  {
-    "file": "card_098_alcoholic.png",
-    "text": "ALCOHOLIC",
-    "index": 98,
-    "tr": "alkollü"
-  },
-  {
-    "file": "card_099_annoying.png",
-    "text": "ANNOYING",
-    "index": 99,
-    "tr": "sinir bozucu"
-  },
-  {
-    "file": "card_100_annoyed.png",
-    "text": "ANNOYED",
-    "index": 100,
-    "tr": "sinirli"
-  },
-  {
-    "file": "card_101_amazing.png",
-    "text": "AMAZING",
-    "index": 101,
-    "tr": "inanılmaz"
-  },
-  {
-    "file": "card_102_beg.png",
-    "text": "BEG",
-    "index": 102,
-    "tr": "yalvarmak"
-  },
-  {
-    "file": "card_103_being.png",
-    "text": "BEING",
-    "index": 103,
-    "tr": "yapı"
-  },
-  {
-    "file": "card_104_cheerful.png",
-    "text": "CHEERFUL",
-    "index": 104,
-    "tr": "neşeli"
-  },
-  {
-    "file": "card_105_bride.png",
-    "text": "BRIDE",
-    "index": 105,
-    "tr": "gelin"
-  },
-  {
-    "file": "card_106_concerned.png",
-    "text": "CONCERNED",
-    "index": 106,
-    "tr": "endişeli"
-  },
-  {
-    "file": "card_107_confusing.png",
-    "text": "CONFUSING",
-    "index": 107,
-    "tr": "kafa karıştırıcı"
-  },
-  {
-    "file": "card_108_confused.png",
-    "text": "CONFUSED",
-    "index": 108,
-    "tr": "kafası karışmış"
-  },
-  {
-    "file": "card_109_courage.png",
-    "text": "COURAGE",
-    "index": 109,
-    "tr": "cesaret"
-  },
-  {
-    "file": "card_110_connected.png",
-    "text": "CONNECTED",
-    "index": 110,
-    "tr": "bağlı"
-  },
-  {
-    "file": "card_111_cruel.png",
-    "text": "CRUEL",
-    "index": 111,
-    "tr": "acımasız"
-  },
-  {
-    "file": "card_112_curved.png",
-    "text": "CURVED",
-    "index": 112,
-    "tr": "kavisli"
-  },
-  {
-    "file": "card_113_detective.png",
-    "text": "DETECTIVE",
-    "index": 113,
-    "tr": "dedektif"
-  },
-  {
-    "file": "card_114_depressing.png",
-    "text": "DEPRESSING",
-    "index": 114,
-    "tr": "moral bozucu"
-  },
-  {
-    "file": "card_115_safety_blanket.png",
-    "text": "SAFETY BLANKET",
-    "index": 115,
-    "tr": "güvenlik battaniyesi"
-  },
-  {
-    "file": "card_116_highs_and_lows.png",
-    "text": "HIGHS AND LOWS",
-    "index": 116,
-    "tr": "yüksekler ve alçaklar"
-  },
-  {
-    "file": "card_117_give_it_a_shot.png",
-    "text": "GIVE IT A SHOT",
-    "index": 117,
-    "tr": "bir şans ver"
-  },
-  {
-    "file": "card_118_tangible.png",
-    "text": "TANGIBLE",
-    "index": 118,
-    "tr": "somut"
-  },
-  {
-    "file": "card_119_inevitably.png",
-    "text": "INEVITABLY",
-    "index": 119,
-    "tr": "kaçınılmaz olarak"
-  },
-  {
-    "file": "card_120_calling_card.png",
-    "text": "CALLING CARD",
-    "index": 120,
-    "tr": "arama kartı"
-  },
-  {
-    "file": "card_121_to_be_admitted.png",
-    "text": "TO BE ADMITTED",
-    "index": 121,
-    "tr": "kabul edilmek"
-  },
-  {
-    "file": "card_122_take_a_while.png",
-    "text": "TAKE A WHILE",
-    "index": 122,
-    "tr": "biraz zaman ayır"
-  },
-  {
-    "file": "card_123_spurt.png",
-    "text": "SPURT",
-    "index": 123,
-    "tr": "hamle"
-  },
-  {
-    "file": "card_124_once_and_for_all.png",
-    "text": "ONCE AND FOR ALL",
-    "index": 124,
-    "tr": "bir kez ve herkes için"
-  },
-  {
-    "file": "card_125_emulate.png",
-    "text": "EMULATE",
-    "index": 125,
-    "tr": "öykünmek"
-  },
-  {
-    "file": "card_126_nurture.png",
-    "text": "NURTURE",
-    "index": 126,
-    "tr": "yetiştirmek"
-  },
-  {
-    "file": "card_127_sabotage.png",
-    "text": "SABOTAGE",
-    "index": 127,
-    "tr": "sabotaj"
-  },
-  {
-    "file": "card_128_have_a_knack.png",
-    "text": "HAVE A KNACK",
-    "index": 128,
-    "tr": "bir yeteneğe sahip olmak"
-  },
-  {
-    "file": "card_129_ashamed.png",
-    "text": "ASHAMED",
-    "index": 129,
-    "tr": "utanmış"
-  },
-  {
-    "file": "card_130_im_not_going_to_lie.png",
-    "text": "I'M NOT GOING TO LIE",
-    "index": 130,
-    "tr": "yalan söylemeyeceğim"
-  },
-  {
-    "file": "card_131_apex.png",
-    "text": "APEX",
-    "index": 131,
-    "tr": "zirve"
-  },
-  {
-    "file": "card_132_attached.png",
-    "text": "ATTACHED",
-    "index": 132,
-    "tr": "ekli"
-  },
-  {
-    "file": "card_133_spiral.png",
-    "text": "SPIRAL",
-    "index": 133,
-    "tr": "sarmal"
-  },
-  {
-    "file": "card_134_stunt.png",
-    "text": "STUNT",
-    "index": 134,
-    "tr": "gösteri"
-  },
-  {
-    "file": "card_135_give_someone_kudos.png",
-    "text": "GIVE SOMEONE KUDOS",
-    "index": 135,
-    "tr": "birine övgüde bulunmak"
-  },
-  {
-    "file": "card_136_freak_out.png",
-    "text": "FREAK OUT",
-    "index": 136,
-    "tr": "çıldırmak"
-  },
-  {
-    "file": "card_137_distorted.png",
-    "text": "DISTORTED",
-    "index": 137,
-    "tr": "çarpık"
-  },
-  {
-    "file": "card_138_hold_ones_own.png",
-    "text": "HOLD ONE'S OWN",
-    "index": 138,
-    "tr": "kendine hakim olmak"
-  },
-  {
-    "file": "card_139_preface.png",
-    "text": "PREFACE",
-    "index": 139,
-    "tr": "önsöz"
-  },
-  {
-    "file": "card_140_gargle.png",
-    "text": "GARGLE",
-    "index": 140,
-    "tr": "gargara"
-  },
-  {
-    "file": "card_141_beautify.png",
-    "text": "BEAUTIFY",
-    "index": 141,
-    "tr": "güzelleştirmek"
-  },
-  {
-    "file": "card_142_sprawling.png",
-    "text": "SPRAWLING",
-    "index": 142,
-    "tr": "yayılan"
-  },
-  {
-    "file": "card_143_albeit.png",
-    "text": "ALBEIT",
-    "index": 143,
-    "tr": "yine de"
-  },
-  {
-    "file": "card_144_laugh_in_someones_face.png",
-    "text": "LAUGH IN SOMEONE'S FACE",
-    "index": 144,
-    "tr": "birinin yüzüne gülmek"
-  },
-  {
-    "file": "card_145_union.png",
-    "text": "UNION",
-    "index": 145,
-    "tr": "birlik"
-  },
-  {
-    "file": "card_146_on_edge.png",
-    "text": "ON EDGE",
-    "index": 146,
-    "tr": "sınırda"
-  },
-  {
-    "file": "card_147_game_changer.png",
-    "text": "GAME CHANGER",
-    "index": 147,
-    "tr": "oyun değiştirici"
-  },
-  {
-    "file": "card_148_devoted.png",
-    "text": "DEVOTED",
-    "index": 148,
     "tr": "sadık"
   },
   {
-    "file": "card_149_escalate.png",
-    "text": "ESCALATE",
-    "index": 149,
-    "tr": "gerilimi tırmandırmak"
+    "file": "card_017_mild.png",
+    "text": "MILD",
+    "index": 17,
+    "tr": "hafif"
   },
   {
-    "file": "card_150_pour_out.png",
-    "text": "POUR OUT",
-    "index": 150,
-    "tr": "dökmek"
+    "file": "card_018_mosque.png",
+    "text": "MOSQUE",
+    "index": 18,
+    "tr": "cami"
   },
   {
-    "file": "card_151_case_in_point.png",
-    "text": "CASE IN POINT",
-    "index": 151,
-    "tr": "önemli bir durum"
+    "file": "card_019_newsletter.png",
+    "text": "NEWSLETTER",
+    "index": 19,
+    "tr": "haber bülteni"
   },
   {
-    "file": "card_152_play_around.png",
-    "text": "PLAY AROUND",
-    "index": 152,
-    "tr": "oynamak"
+    "file": "card_020_newcomer.png",
+    "text": "NEWCOMER",
+    "index": 20,
+    "tr": "yeni gelen"
   },
   {
-    "file": "card_153_dissect.png",
-    "text": "DISSECT",
-    "index": 153,
-    "tr": "incelemek"
+    "file": "card_021_outgoing.png",
+    "text": "OUTGOING",
+    "index": 21,
+    "tr": "dışa dönük"
   },
   {
-    "file": "card_154_rural.png",
-    "text": "RURAL",
-    "index": 154,
-    "tr": "kırsal"
+    "file": "card_022_outfit.png",
+    "text": "OUTFIT",
+    "index": 22,
+    "tr": "kıyafet"
   },
   {
-    "file": "card_155_in_my_case.png",
-    "text": "IN MY CASE",
-    "index": 155,
-    "tr": "benim durumumda"
+    "file": "card_023_misunderstand.png",
+    "text": "MISUNDERSTAND",
+    "index": 23,
+    "tr": "yanlış anlamak"
   },
   {
-    "file": "card_156_rule_of_thumb.png",
-    "text": "RULE OF THUMB",
-    "index": 156,
-    "tr": "temel kural"
+    "file": "card_024_bare.png",
+    "text": "BARE",
+    "index": 24,
+    "tr": "çıplak"
   },
   {
-    "file": "card_157_androgynous.png",
-    "text": "ANDROGYNOUS",
-    "index": 157,
-    "tr": "androjen"
+    "file": "card_025_banner.png",
+    "text": "BANNER",
+    "index": 25,
+    "tr": "afiş"
   },
   {
-    "file": "card_158_tricky.png",
-    "text": "TRICKY",
-    "index": 158,
-    "tr": "zorlu"
+    "file": "card_026_overnight.png",
+    "text": "OVERNIGHT",
+    "index": 26,
+    "tr": "gecede"
   },
   {
-    "file": "card_159_intelligible.png",
-    "text": "INTELLIGIBLE",
-    "index": 159,
-    "tr": "anlaşılır"
+    "file": "card_027_overtime.png",
+    "text": "OVERTIME",
+    "index": 27,
+    "tr": "mesai"
   },
   {
-    "file": "card_160_infantile.png",
-    "text": "INFANTILE",
-    "index": 160,
-    "tr": "çocuksu"
+    "file": "card_028_outsider.png",
+    "text": "OUTSIDER",
+    "index": 28,
+    "tr": "yabancı"
   },
   {
-    "file": "card_161_humble.png",
-    "text": "HUMBLE",
-    "index": 161,
-    "tr": "mütevazı"
+    "file": "card_029_beast.png",
+    "text": "BEAST",
+    "index": 29,
+    "tr": "canavar"
   },
   {
-    "file": "card_162_it_takes_two_to_tango.png",
-    "text": "IT TAKES TWO TO TANGO",
-    "index": 162,
-    "tr": "tango için iki kişi gerekir"
+    "file": "card_030_battlefield.png",
+    "text": "BATTLEFIELD",
+    "index": 30,
+    "tr": "savaş alanı"
   },
   {
-    "file": "card_163_hilarious.png",
-    "text": "HILARIOUS",
-    "index": 163,
-    "tr": "gülünç"
+    "file": "card_031_blade.png",
+    "text": "BLADE",
+    "index": 31,
+    "tr": "bıçak"
   },
   {
-    "file": "card_164_a_bit_off.png",
-    "text": "A BIT OFF",
-    "index": 164,
-    "tr": "biraz kapalı"
+    "file": "card_032_bass.png",
+    "text": "BASS",
+    "index": 32,
+    "tr": "bas"
   },
   {
-    "file": "card_165_selfless.png",
-    "text": "SELFLESS",
-    "index": 165,
-    "tr": "özverili"
+    "file": "card_033_bay.png",
+    "text": "BAY",
+    "index": 33,
+    "tr": "koy"
   },
   {
-    "file": "card_166_cocky.png",
-    "text": "COCKY",
-    "index": 166,
-    "tr": "kendini beğenmiş"
+    "file": "card_034_cliff.png",
+    "text": "CLIFF",
+    "index": 34,
+    "tr": "uçurum"
   },
   {
-    "file": "card_167_surefire.png",
-    "text": "SUREFIRE",
-    "index": 167,
-    "tr": "kesin ateş"
-  },
-  {
-    "file": "card_168_pattern.png",
-    "text": "PATTERN",
-    "index": 168,
-    "tr": "model"
-  },
-  {
-    "file": "card_169_get_someone_down.png",
-    "text": "GET SOMEONE DOWN",
-    "index": 169,
-    "tr": "birini yere düşürmek"
-  },
-  {
-    "file": "card_170_fable.png",
-    "text": "FABLE",
-    "index": 170,
-    "tr": "masal"
-  },
-  {
-    "file": "card_171_exponential.png",
-    "text": "EXPONENTIAL",
-    "index": 171,
-    "tr": "üstel"
-  },
-  {
-    "file": "card_172_knack.png",
-    "text": "KNACK",
-    "index": 172,
-    "tr": "ustalık"
-  },
-  {
-    "file": "card_173_characteristic.png",
-    "text": "CHARACTERISTIC",
-    "index": 173,
-    "tr": "karakteristik"
-  },
-  {
-    "file": "card_174_strict_with.png",
-    "text": "STRICT WITH",
-    "index": 174,
-    "tr": "katı"
-  },
-  {
-    "file": "card_175_stall.png",
-    "text": "STALL",
-    "index": 175,
-    "tr": "durak"
-  },
-  {
-    "file": "card_176_rev.png",
-    "text": "REV",
-    "index": 176,
-    "tr": "devir"
-  },
-  {
-    "file": "card_177_sharpen_ones_ears.png",
-    "text": "SHARPEN ONE'S EARS",
-    "index": 177,
-    "tr": "kulaklarını keskinleştirmek"
-  },
-  {
-    "file": "card_178_in_high_demand.png",
-    "text": "IN HIGH DEMAND",
-    "index": 178,
-    "tr": "yüksek talep görüyor"
-  },
-  {
-    "file": "card_179_armband.png",
-    "text": "ARMBAND",
-    "index": 179,
-    "tr": "kol bandı"
-  },
-  {
-    "file": "card_180_belly_rub.png",
-    "text": "BELLY RUB",
-    "index": 180,
-    "tr": "göbek ovmak"
-  },
-  {
-    "file": "card_181_scout.png",
-    "text": "SCOUT",
-    "index": 181,
-    "tr": "izci"
-  },
-  {
-    "file": "card_182_in_case.png",
-    "text": "IN CASE",
-    "index": 182,
-    "tr": "durumunda"
-  },
-  {
-    "file": "card_183_cabinetlevel_position.png",
-    "text": "CABINET-LEVEL POSITION",
-    "index": 183,
-    "tr": "kabin düzeyinde konum"
-  },
-  {
-    "file": "card_184_jcendless_.png",
-    "text": "JCENDLESS |И",
-    "index": 184,
-    "tr": "jcendless |и"
-  },
-  {
-    "file": "card_185_scare_off.png",
-    "text": "SCARE OFF",
-    "index": 185,
-    "tr": "korkutmak"
-  },
-  {
-    "file": "card_186_trickster.png",
-    "text": "TRICKSTER",
-    "index": 186,
-    "tr": "düzenbaz"
-  },
-  {
-    "file": "card_187_blast_out.png",
-    "text": "BLAST OUT",
-    "index": 187,
-    "tr": "patlatmak"
-  },
-  {
-    "file": "card_188_sizzle_out.png",
-    "text": "SIZZLE OUT",
-    "index": 188,
-    "tr": "cızırdamak"
-  },
-  {
-    "file": "card_189_put_something_off_the_table.png",
-    "text": "PUT SOMETHING OFF THE TABLE",
-    "index": 189,
-    "tr": "masanın üstüne bir şey koy"
-  },
-  {
-    "file": "card_190_stay_out_of.png",
-    "text": "STAY OUT OF",
-    "index": 190,
-    "tr": "uzak dur"
-  },
-  {
-    "file": "card_191_scarecrow.png",
-    "text": "SCARECROW",
-    "index": 191,
-    "tr": "korkuluk"
-  },
-  {
-    "file": "card_192_homing_beacon.png",
-    "text": "HOMING BEACON",
-    "index": 192,
-    "tr": "yön bulma feneri"
-  },
-  {
-    "file": "card_193_close_a_gap.png",
-    "text": "CLOSE A GAP",
-    "index": 193,
-    "tr": "bir boşluğu kapatmak"
-  },
-  {
-    "file": "card_194_hop_on_board.png",
-    "text": "HOP ON BOARD",
-    "index": 194,
-    "tr": "gemiye atla"
-  },
-  {
-    "file": "card_195_goof_around.png",
-    "text": "GOOF AROUND",
-    "index": 195,
-    "tr": "şakalaşmak"
-  },
-  {
-    "file": "card_196_pop_into_your_head.png",
-    "text": "POP INTO YOUR HEAD",
-    "index": 196,
-    "tr": "kafanın içine gir"
-  },
-  {
-    "file": "card_197_curse.png",
-    "text": "CURSE",
-    "index": 197,
-    "tr": "küfür"
-  },
-  {
-    "file": "card_198_draw_a_blank.png",
-    "text": "DRAW A BLANK",
-    "index": 198,
-    "tr": "boş çiz"
-  },
-  {
-    "file": "card_199_chip.png",
-    "text": "CHIP",
-    "index": 199,
-    "tr": "çip"
-  },
-  {
-    "file": "card_200_existing.png",
-    "text": "EXISTING",
-    "index": 200,
-    "tr": "mevcut"
-  },
-  {
-    "file": "card_201_blob.png",
-    "text": "BLOB",
-    "index": 201,
-    "tr": "damla"
-  },
-  {
-    "file": "card_202_golden.png",
-    "text": "GOLDEN",
-    "index": 202,
-    "tr": "altın"
-  },
-  {
-    "file": "card_203_sauce.png",
-    "text": "SAUCE",
-    "index": 203,
-    "tr": "sos"
-  },
-  {
-    "file": "card_204_break_free_from.png",
-    "text": "BREAK FREE FROM",
-    "index": 204,
-    "tr": "kurtulmak"
-  },
-  {
-    "file": "card_205_fella.png",
-    "text": "FELLA",
-    "index": 205,
-    "tr": "dostum"
-  },
-  {
-    "file": "card_206_laughter.png",
-    "text": "LAUGHTER",
-    "index": 206,
-    "tr": "kahkaha"
-  },
-  {
-    "file": "card_207_school.png",
-    "text": "SCHOOL",
-    "index": 207,
-    "tr": "okul"
-  },
-  {
-    "file": "card_208_rephrase.png",
-    "text": "REPHRASE",
-    "index": 208,
-    "tr": "yeniden ifade etmek"
-  },
-  {
-    "file": "card_209_be_hard_on_someone.png",
-    "text": "BE HARD ON SOMEONE",
-    "index": 209,
-    "tr": "birine sert davranmak"
-  },
-  {
-    "file": "card_210_opportune_moment.png",
-    "text": "OPPORTUNE MOMENT",
-    "index": 210,
-    "tr": "uygun an"
-  },
-  {
-    "file": "card_211_baker.png",
-    "text": "BAKER",
-    "index": 211,
-    "tr": "fırıncı"
-  },
-  {
-    "file": "card_212_let_in.png",
-    "text": "LET IN",
-    "index": 212,
-    "tr": "içeri almak"
-  },
-  {
-    "file": "card_213_teenager.png",
-    "text": "TEENAGER",
-    "index": 213,
-    "tr": "genç"
-  },
-  {
-    "file": "card_214_tower.png",
-    "text": "TOWER",
-    "index": 214,
-    "tr": "kule"
-  },
-  {
-    "file": "card_215_knock_off.png",
-    "text": "KNOCK OFF",
-    "index": 215,
-    "tr": "nakavt etmek"
-  },
-  {
-    "file": "card_216_already.png",
-    "text": "ALREADY",
-    "index": 216,
-    "tr": "çoktan"
-  },
-  {
-    "file": "card_217_leather.png",
-    "text": "LEATHER",
-    "index": 217,
-    "tr": "deri"
-  },
-  {
-    "file": "card_218_van.png",
-    "text": "VAN",
-    "index": 218,
-    "tr": "kamyonet"
-  },
-  {
-    "file": "card_219_habit_stacking.png",
-    "text": "HABIT STACKING",
-    "index": 219,
-    "tr": "alışkanlık yığını"
-  },
-  {
-    "file": "card_220_spaced_out.png",
-    "text": "SPACED OUT",
-    "index": 220,
-    "tr": "aralıklı"
-  },
-  {
-    "file": "card_221_throwback.png",
-    "text": "THROWBACK",
-    "index": 221,
-    "tr": "gerileme"
-  },
-  {
-    "file": "card_222_sauna.png",
-    "text": "SAUNA",
-    "index": 222,
-    "tr": "sauna"
-  },
-  {
-    "file": "card_223_tail_wagging.png",
-    "text": "TAIL WAGGING",
-    "index": 223,
-    "tr": "kuyruk sallama"
-  },
-  {
-    "file": "card_224_like_a_deer_in_the_headlights.png",
-    "text": "LIKE A DEER IN THE HEADLIGHTS",
-    "index": 224,
-    "tr": "farlardaki geyik gibi"
-  },
-  {
-    "file": "card_225_pity.png",
-    "text": "PITY®",
-    "index": 225,
-    "tr": "yazık®"
-  },
-  {
-    "file": "card_226_one_size_fits_all.png",
-    "text": "ONE SIZE FITS ALL",
-    "index": 226,
-    "tr": "tek beden herkese uyar"
-  },
-  {
-    "file": "card_227_throw_in.png",
-    "text": "THROW IN",
-    "index": 227,
-    "tr": "atmak"
-  },
-  {
-    "file": "card_228_give_something_a_try.png",
-    "text": "GIVE SOMETHING A TRY",
-    "index": 228,
-    "tr": "bir şeyi dene"
-  },
-  {
-    "file": "card_229_seek.png",
-    "text": "SEEK",
-    "index": 229,
-    "tr": "aramak"
-  },
-  {
-    "file": "card_230_homeland.png",
-    "text": "HOMELAND",
-    "index": 230,
-    "tr": "vatan"
-  },
-  {
-    "file": "card_231_death.png",
-    "text": "DEATH",
-    "index": 231,
-    "tr": "ölüm"
-  },
-  {
-    "file": "card_232_mixed_signals.png",
-    "text": "MIXED SIGNALS",
-    "index": 232,
-    "tr": "karışık sinyaller"
-  },
-  {
-    "file": "card_233_possess.png",
-    "text": "POSSESS",
-    "index": 233,
-    "tr": "elinde bulundurmak"
-  },
-  {
-    "file": "card_234_educated.png",
-    "text": "EDUCATED",
-    "index": 234,
-    "tr": "eğitimli"
-  },
-  {
-    "file": "card_235_set_aside.png",
-    "text": "SET ASIDE",
-    "index": 235,
-    "tr": "bir kenara koymak"
-  },
-  {
-    "file": "card_236_scout.png",
-    "text": "SCOUT",
-    "index": 236,
-    "tr": "izci"
-  },
-  {
-    "file": "card_237_site.png",
-    "text": "SITE",
-    "index": 237,
-    "tr": "alan"
-  },
-  {
-    "file": "card_238_sketchy.png",
-    "text": "SKETCHY",
-    "index": 238,
-    "tr": "kabataslak"
-  },
-  {
-    "file": "card_239_prenuptial_agreement.png",
-    "text": "PRENUPTIAL AGREEMENT",
-    "index": 239,
-    "tr": "evlilik öncesi anlaşma"
-  },
-  {
-    "file": "card_240_back_off.png",
-    "text": "BACK OFF",
-    "index": 240,
-    "tr": "geri çekilmek"
-  },
-  {
-    "file": "card_241_equal.png",
-    "text": "EQUAL",
-    "index": 241,
-    "tr": "eşit"
-  },
-  {
-    "file": "card_242_smartphone.png",
-    "text": "SMARTPHONE",
-    "index": 242,
-    "tr": "akıllı telefon"
-  },
-  {
-    "file": "card_243_card_243.png",
-    "text": "CARD_243",
-    "index": 243,
-    "tr": "kart_243"
-  },
-  {
-    "file": "card_244_have_a_blast.png",
-    "text": "HAVE A BLAST",
-    "index": 244,
-    "tr": "eğlenmek"
-  },
-  {
-    "file": "card_245_extinguish.png",
-    "text": "EXTINGUISH",
-    "index": 245,
-    "tr": "söndürmek"
-  },
-  {
-    "file": "card_246_storm.png",
-    "text": "STORM",
-    "index": 246,
-    "tr": "fırtına"
-  },
-  {
-    "file": "card_247_run_errands.png",
-    "text": "RUN ERRANDS",
-    "index": 247,
-    "tr": "ayak işlerini yürütmek"
-  },
-  {
-    "file": "card_248_lottery.png",
-    "text": "LOTTERY",
-    "index": 248,
-    "tr": "piyango"
-  },
-  {
-    "file": "card_249_lower.png",
-    "text": "LOWER",
-    "index": 249,
-    "tr": "daha düşük"
-  },
-  {
-    "file": "card_250_writer.png",
-    "text": "WRITER",
-    "index": 250,
-    "tr": "yazar"
-  },
-  {
-    "file": "card_251_theater.png",
-    "text": "THEATER",
-    "index": 251,
-    "tr": "tiyatro"
-  },
-  {
-    "file": "card_252_bake.png",
-    "text": "BAKE",
-    "index": 252,
-    "tr": "pişmek"
-  },
-  {
-    "file": "card_253_causeway.png",
-    "text": "CAUSEWAY",
-    "index": 253,
-    "tr": "geçit"
-  },
-  {
-    "file": "card_254_oval.png",
-    "text": "OVAL",
-    "index": 254,
-    "tr": "oval"
-  },
-  {
-    "file": "card_255_bend.png",
-    "text": "BEND",
-    "index": 255,
-    "tr": "bükülmek"
-  },
-  {
-    "file": "card_256_rob_.png",
-    "text": "ROB $",
-    "index": 256,
-    "tr": "$ soymak"
-  },
-  {
-    "file": "card_257_alcohol.png",
-    "text": "ALCOHOL",
-    "index": 257,
-    "tr": "alkol"
-  },
-  {
-    "file": "card_258_howl.png",
-    "text": "HOWL",
-    "index": 258,
-    "tr": "uluma"
-  },
-  {
-    "file": "card_259_binge.png",
-    "text": "BINGE",
-    "index": 259,
-    "tr": "alem"
-  },
-  {
-    "file": "card_260_ebook.png",
-    "text": "E-BOOK",
-    "index": 260,
-    "tr": "e-kitap"
-  },
-  {
-    "file": "card_261_fridge_magnet.png",
-    "text": "FRIDGE MAGNET",
-    "index": 261,
-    "tr": "buzdolabı mıknatısı"
-  },
-  {
-    "file": "card_262_hail.png",
-    "text": "HAIL",
-    "index": 262,
-    "tr": "dolu"
-  },
-  {
-    "file": "card_263_invitation.png",
-    "text": "INVITATION",
-    "index": 263,
-    "tr": "davet"
-  },
-  {
-    "file": "card_264_7_troll.png",
-    "text": "7 TROLL",
-    "index": 264,
-    "tr": "7 trol"
-  },
-  {
-    "file": "card_265_linear.png",
-    "text": "LINEAR",
-    "index": 265,
-    "tr": "doğrusal"
-  },
-  {
-    "file": "card_266_needle.png",
-    "text": "NEEDLE",
-    "index": 266,
-    "tr": "iğne"
-  },
-  {
-    "file": "card_267_hubby.png",
-    "text": "HUBBY",
-    "index": 267,
-    "tr": "koca"
-  },
-  {
-    "file": "card_268_easily.png",
-    "text": "EASILY",
-    "index": 268,
-    "tr": "kolayca"
-  },
-  {
-    "file": "card_269_daring.png",
-    "text": "DARING",
-    "index": 269,
-    "tr": "cesur"
-  },
-  {
-    "file": "card_270_nas_de_the_or_the_mufle_tha_written.png",
-    "text": "NAS DE THE OR THE MUFLE. THA WRITTEN",
-    "index": 270,
-    "tr": "nas de the veya mufle. bu yazıldı"
-  },
-  {
-    "file": "card_271_tale_as_old_as_time.png",
-    "text": "TALE AS OLD AS TIME",
-    "index": 271,
-    "tr": "zaman kadar eski bir hikaye"
-  },
-  {
-    "file": "card_272_hunting.png",
-    "text": "HUNTING",
-    "index": 272,
-    "tr": "Avcılık"
-  },
-  {
-    "file": "card_273_disappointing.png",
-    "text": "DISAPPOINTING",
-    "index": 273,
-    "tr": "hayal kırıklığı yaratan"
-  },
-  {
-    "file": "card_274_inescapable.png",
-    "text": "INESCAPABLE",
-    "index": 274,
-    "tr": "kaçınılmaz"
-  },
-  {
-    "file": "card_275_surprisingly.png",
-    "text": "SURPRISINGLY",
-    "index": 275,
-    "tr": "şaşırtıcı bir şekilde"
-  },
-  {
-    "file": "card_276_miss.png",
-    "text": "MISS",
-    "index": 276,
-    "tr": "kayıp"
-  },
-  {
-    "file": "card_277_businessman.png",
-    "text": "BUSINESSMAN",
-    "index": 277,
-    "tr": "işadamı"
-  },
-  {
-    "file": "card_278_powder.png",
-    "text": "POWDER",
-    "index": 278,
-    "tr": "toz"
-  },
-  {
-    "file": "card_279_barbecue.png",
-    "text": "BARBECUE",
-    "index": 279,
-    "tr": "barbekü"
-  },
-  {
-    "file": "card_280_engine.png",
-    "text": "ENGINE",
-    "index": 280,
-    "tr": "motor"
-  },
-  {
-    "file": "card_281_hour.png",
-    "text": "HOUR",
-    "index": 281,
-    "tr": "saat"
-  },
-  {
-    "file": "card_282_gear.png",
-    "text": "GEAR",
-    "index": 282,
-    "tr": "vites"
-  },
-  {
-    "file": "card_283_jazz.png",
-    "text": "JAZZ",
-    "index": 283,
-    "tr": "caz"
-  },
-  {
-    "file": "card_284_continent.png",
-    "text": "CONTINENT",
-    "index": 284,
-    "tr": "kıta"
-  },
-  {
-    "file": "card_285_strange.png",
-    "text": "STRANGE",
-    "index": 285,
-    "tr": "garip"
-  },
-  {
-    "file": "card_286_established.png",
-    "text": "ESTABLISHED",
-    "index": 286,
-    "tr": "kurulmuş"
-  },
-  {
-    "file": "card_287_passing.png",
-    "text": "PASSING",
-    "index": 287,
-    "tr": "geçen"
-  },
-  {
-    "file": "card_288_gripe.png",
-    "text": "GRIPE",
-    "index": 288,
-    "tr": "yakınma"
-  },
-  {
-    "file": "card_289_barn.png",
-    "text": "BARN",
-    "index": 289,
-    "tr": "ahır"
-  },
-  {
-    "file": "card_290_ingrained.png",
-    "text": "INGRAINED",
-    "index": 290,
-    "tr": "yerleşmiş"
-  },
-  {
-    "file": "card_291_nonnegotiable.png",
-    "text": "NON-NEGOTIABLE",
-    "index": 291,
-    "tr": "pazarlık konusu edilemez"
-  },
-  {
-    "file": "card_292_gardener.png",
-    "text": "GARDENER",
-    "index": 292,
-    "tr": "bahçıvan"
-  },
-  {
-    "file": "card_293_dedicate_oneself_to.png",
-    "text": "DEDICATE ONESELF TO",
-    "index": 293,
-    "tr": "kendini adamak"
-  },
-  {
-    "file": "card_294_tip_of_the_iceberg.png",
-    "text": "TIP OF THE ICEBERG",
-    "index": 294,
-    "tr": "buzdağının görünen kısmı"
-  },
-  {
-    "file": "card_295_stage.png",
-    "text": "STAGE",
-    "index": 295,
-    "tr": "sahne"
-  },
-  {
-    "file": "card_296_web.png",
-    "text": "WEB",
-    "index": 296,
-    "tr": "ağ"
-  },
-  {
-    "file": "card_297_grand_finale.png",
-    "text": "GRAND FINALE",
-    "index": 297,
-    "tr": "büyük final"
-  },
-  {
-    "file": "card_298_plateau.png",
-    "text": "PLATEAU",
-    "index": 298,
-    "tr": "plato"
-  },
-  {
-    "file": "card_299_well.png",
-    "text": "WELL",
-    "index": 299,
-    "tr": "Peki"
-  },
-  {
-    "file": "card_300_supply.png",
-    "text": "SUPPLY",
-    "index": 300,
-    "tr": "tedarik"
-  },
-  {
-    "file": "card_301_event.png",
-    "text": "EVENT",
-    "index": 301,
-    "tr": "etkinlik"
-  },
-  {
-    "file": "card_302_the_mall_the_worksheet.png",
-    "text": "THE MALL. THE WORKSHEET",
-    "index": 302,
-    "tr": "Alışveriş merkezi. çalışma sayfası"
-  },
-  {
-    "file": "card_303_medal.png",
-    "text": "MEDAL",
-    "index": 303,
-    "tr": "madalya"
-  },
-  {
-    "file": "card_304_get_down.png",
-    "text": "GET DOWN",
-    "index": 304,
-    "tr": "aşağı in"
-  },
-  {
-    "file": "card_305_shipping.png",
-    "text": "SHIPPING",
-    "index": 305,
-    "tr": "Nakliye"
-  },
-  {
-    "file": "card_306_fragile.png",
-    "text": "FRAGILE",
-    "index": 306,
-    "tr": "kırılgan"
-  },
-  {
-    "file": "card_307_decree.png",
-    "text": "DECREE",
-    "index": 307,
-    "tr": "kararname"
-  },
-  {
-    "file": "card_308_organization.png",
-    "text": "ORGANIZATION",
-    "index": 308,
-    "tr": "organizasyon"
-  },
-  {
-    "file": "card_309_stumble.png",
-    "text": "STUMBLE",
-    "index": 309,
-    "tr": "yanılmak"
-  },
-  {
-    "file": "card_310_excited.png",
-    "text": "EXCITED",
-    "index": 310,
-    "tr": "heyecanlı"
-  },
-  {
-    "file": "card_311_physics.png",
-    "text": "PHYSICS",
-    "index": 311,
-    "tr": "fizik"
-  },
-  {
-    "file": "card_312_give_something_a_thought.png",
-    "text": "GIVE SOMETHING A THOUGHT",
-    "index": 312,
-    "tr": "bir şeyi düşünmek"
-  },
-  {
-    "file": "card_313_counter.png",
-    "text": "COUNTER",
-    "index": 313,
-    "tr": "tezgah"
-  },
-  {
-    "file": "card_314_count.png",
-    "text": "COUNT",
-    "index": 314,
-    "tr": "saymak"
-  },
-  {
-    "file": "card_315_able.png",
-    "text": "ABLE",
-    "index": 315,
-    "tr": "hünerli"
-  },
-  {
-    "file": "card_316_packed.png",
-    "text": "PACKED",
-    "index": 316,
-    "tr": "paketlenmiş"
-  },
-  {
-    "file": "card_317_gathering.png",
-    "text": "GATHERING",
-    "index": 317,
-    "tr": "toplama"
-  },
-  {
-    "file": "card_318_issue.png",
-    "text": "ISSUE",
-    "index": 318,
-    "tr": "sorun"
-  },
-  {
-    "file": "card_319_empty.png",
-    "text": "EMPTY",
-    "index": 319,
-    "tr": "boş"
-  },
-  {
-    "file": "card_320_string.png",
-    "text": "STRING",
-    "index": 320,
-    "tr": "sicim"
-  },
-  {
-    "file": "card_321_see_the_difference.png",
-    "text": "SEE THE DIFFERENCE",
-    "index": 321,
-    "tr": "farkı görün"
-  },
-  {
-    "file": "card_322_nursery.png",
-    "text": "NURSERY",
-    "index": 322,
-    "tr": "kreş"
-  },
-  {
-    "file": "card_323_failed.png",
-    "text": "FAILED",
-    "index": 323,
-    "tr": "arızalı"
-  },
-  {
-    "file": "card_324_troubled.png",
-    "text": "TROUBLED",
-    "index": 324,
-    "tr": "sorunlu"
-  },
-  {
-    "file": "card_325_reflect.png",
-    "text": "REFLECT",
-    "index": 325,
-    "tr": "yansıtmak"
-  },
-  {
-    "file": "card_326_suffering.png",
-    "text": "SUFFERING",
-    "index": 326,
-    "tr": "cefa"
-  },
-  {
-    "file": "card_327_gaming.png",
-    "text": "GAMING",
-    "index": 327,
-    "tr": "oyun"
-  },
-  {
-    "file": "card_328_put_back.png",
-    "text": "PUT BACK",
-    "index": 328,
-    "tr": "geri koymak"
-  },
-  {
-    "file": "card_329_mask.png",
-    "text": "MASK",
-    "index": 329,
-    "tr": "maske"
-  },
-  {
-    "file": "card_330_discouraged.png",
-    "text": "DISCOURAGED",
-    "index": 330,
-    "tr": "cesareti kırılmış"
-  },
-  {
-    "file": "card_331_printing.png",
-    "text": "PRINTING",
-    "index": 331,
-    "tr": "baskı"
-  },
-  {
-    "file": "card_332_until.png",
-    "text": "UNTIL",
-    "index": 332,
-    "tr": "değin"
-  },
-  {
-    "file": "card_333_purchase.png",
-    "text": "PURCHASE",
-    "index": 333,
-    "tr": "satın almak"
-  },
-  {
-    "file": "card_334_convenient.png",
-    "text": "CONVENIENT",
-    "index": 334,
-    "tr": "uygun"
-  },
-  {
-    "file": "card_335_within.png",
-    "text": "WITHIN",
-    "index": 335,
-    "tr": "içinde"
-  },
-  {
-    "file": "card_336_go_up.png",
-    "text": "GO UP",
-    "index": 336,
-    "tr": "yukarı çık"
-  },
-  {
-    "file": "card_337_slam.png",
-    "text": "SLAM",
-    "index": 337,
-    "tr": "çarpmak"
-  },
-  {
-    "file": "card_338_useless.png",
-    "text": "USELESS",
-    "index": 338,
-    "tr": "kullanışsız"
-  },
-  {
-    "file": "card_339_fixed.png",
-    "text": "FIXED",
-    "index": 339,
-    "tr": "sabit"
-  },
-  {
-    "file": "card_340_neighboring.png",
-    "text": "NEIGHBORING",
-    "index": 340,
-    "tr": "komşu"
-  },
-  {
-    "file": "card_341_photograph.png",
-    "text": "PHOTOGRAPH",
-    "index": 341,
-    "tr": "fotoğraf"
-  },
-  {
-    "file": "card_342_grandma.png",
-    "text": "GRANDMA",
-    "index": 342,
-    "tr": "büyükanne"
-  },
-  {
-    "file": "card_343_frightening.png",
-    "text": "FRIGHTENING",
-    "index": 343,
-    "tr": "korkutucu"
-  },
-  {
-    "file": "card_344_used.png",
-    "text": "USED",
-    "index": 344,
-    "tr": "kullanılmış"
-  },
-  {
-    "file": "card_345_blowout.png",
-    "text": "BLOWOUT",
-    "index": 345,
-    "tr": "üflemek"
-  },
-  {
-    "file": "card_346_summer.png",
-    "text": "SUMMER",
-    "index": 346,
-    "tr": "yaz"
-  },
-  {
-    "file": "card_347_bloke.png",
-    "text": "BLOKE",
-    "index": 347,
-    "tr": "herif"
-  },
-  {
-    "file": "card_348_coast.png",
-    "text": "COAST",
-    "index": 348,
-    "tr": "sahil"
-  },
-  {
-    "file": "card_349_funeral.png",
-    "text": "FUNERAL",
-    "index": 349,
-    "tr": "cenaze"
-  },
-  {
-    "file": "card_350_raise.png",
-    "text": "RAISE",
-    "index": 350,
-    "tr": "artırmak"
-  },
-  {
-    "file": "card_351_boiler.png",
-    "text": "BOILER",
-    "index": 351,
-    "tr": "kazan"
-  },
-  {
-    "file": "card_352_stripe.png",
-    "text": "STRIPE",
-    "index": 352,
-    "tr": "şerit"
-  },
-  {
-    "file": "card_353_bug.png",
-    "text": "BUG",
-    "index": 353,
-    "tr": "böcek"
-  },
-  {
-    "file": "card_354_literacy.png",
-    "text": "LITERACY",
-    "index": 354,
-    "tr": "okuryazarlık"
-  },
-  {
-    "file": "card_355_southern.png",
-    "text": "SOUTHERN",
-    "index": 355,
-    "tr": "güney"
-  },
-  {
-    "file": "card_356_builder.png",
-    "text": "BUILDER",
-    "index": 356,
-    "tr": "inşaatçı"
-  },
-  {
-    "file": "card_357_model_after.png",
-    "text": "MODEL AFTER",
-    "index": 357,
-    "tr": "sonra model"
-  },
-  {
-    "file": "card_358_widow.png",
-    "text": "WIDOW",
-    "index": 358,
-    "tr": "dul"
-  },
-  {
-    "file": "card_359_chosen.png",
-    "text": "CHOSEN",
-    "index": 359,
-    "tr": "seçilmiş"
-  },
-  {
-    "file": "card_360_social_services.png",
-    "text": "SOCIAL SERVICES",
-    "index": 360,
-    "tr": "sosyal hizmetler"
-  },
-  {
-    "file": "card_361_engineering.png",
-    "text": "ENGINEERING",
-    "index": 361,
-    "tr": "mühendislik"
-  },
-  {
-    "file": "card_362_be_aware_of.png",
-    "text": "BE AWARE OF",
-    "index": 362,
-    "tr": "farkında olmak"
-  },
-  {
-    "file": "card_363_crumble.png",
-    "text": "CRUMBLE",
-    "index": 363,
-    "tr": "ufalanmak"
-  },
-  {
-    "file": "card_364_decline.png",
-    "text": "DECLINE",
-    "index": 364,
-    "tr": "reddetmek"
-  },
-  {
-    "file": "card_365_subsequently.png",
-    "text": "SUBSEQUENTLY",
-    "index": 365,
-    "tr": "daha sonra"
-  },
-  {
-    "file": "card_366_brash.png",
-    "text": "BRASH",
-    "index": 366,
-    "tr": "atılgan"
-  },
-  {
-    "file": "card_367_offering.png",
-    "text": "OFFERING",
-    "index": 367,
-    "tr": "sunan"
-  },
-  {
-    "file": "card_368_busy.png",
-    "text": "BUSY",
-    "index": 368,
-    "tr": "Meşgul"
-  },
-  {
-    "file": "card_369_figure.png",
-    "text": "FIGURE",
-    "index": 369,
-    "tr": "figür"
-  },
-  {
-    "file": "card_370_nurse.png",
-    "text": "NURSE",
-    "index": 370,
-    "tr": "hemşire"
-  },
-  {
-    "file": "card_371_internalize.png",
-    "text": "INTERNALIZE",
-    "index": 371,
-    "tr": "içselleştirmek"
-  },
-  {
-    "file": "card_372_thankfully.png",
-    "text": "THANKFULLY",
-    "index": 372,
-    "tr": "çok şükür"
-  },
-  {
-    "file": "card_373_be_out_of_line.png",
-    "text": "BE OUT OF LINE",
-    "index": 373,
-    "tr": "çizgiyi aşmak"
-  },
-  {
-    "file": "card_374_fond.png",
-    "text": "FOND",
-    "index": 374,
-    "tr": "düşkün"
-  },
-  {
-    "file": "card_375_eighteen.png",
-    "text": "EIGHTEEN",
-    "index": 375,
-    "tr": "on sekiz"
-  },
-  {
-    "file": "card_376_parttime.png",
-    "text": "PART-TIME",
-    "index": 376,
-    "tr": "yarı zamanlı"
-  },
-  {
-    "file": "card_377_sock.png",
-    "text": "SOCK",
-    "index": 377,
-    "tr": "çorap"
-  },
-  {
-    "file": "card_378_landing.png",
-    "text": "LANDING",
-    "index": 378,
-    "tr": "iniş"
-  },
-  {
-    "file": "card_379_indoor.png",
-    "text": "INDOOR",
-    "index": 379,
-    "tr": "kapalı"
-  },
-  {
-    "file": "card_380_castle.png",
-    "text": "CASTLE",
-    "index": 380,
-    "tr": "kale"
-  },
-  {
-    "file": "card_381_carve_out.png",
-    "text": "CARVE OUT",
-    "index": 381,
+    "file": "card_035_carve.png",
+    "text": "CARVE",
+    "index": 35,
     "tr": "oymak"
   },
   {
-    "file": "card_382_bargain.png",
-    "text": "BARGAIN",
+    "file": "card_036_blessing.png",
+    "text": "BLESSING",
+    "index": 36,
+    "tr": "nimet"
+  },
+  {
+    "file": "card_037_coastal.png",
+    "text": "COASTAL",
+    "index": 37,
+    "tr": "kıyı"
+  },
+  {
+    "file": "card_038_choir.png",
+    "text": "CHOIR",
+    "index": 38,
+    "tr": "koro"
+  },
+  {
+    "file": "card_039_cemetery.png",
+    "text": "CEMETERY",
+    "index": 39,
+    "tr": "mezarlık"
+  },
+  {
+    "file": "card_040_comic.png",
+    "text": "COMIC",
+    "index": 40,
+    "tr": "komik"
+  },
+  {
+    "file": "card_041_dairy.png",
+    "text": "DAIRY",
+    "index": 41,
+    "tr": "günlük"
+  },
+  {
+    "file": "card_042_confess.png",
+    "text": "CONFESS",
+    "index": 42,
+    "tr": "itiraf etmek"
+  },
+  {
+    "file": "card_043_cowboy.png",
+    "text": "COWBOY",
+    "index": 43,
+    "tr": "kovboy"
+  },
+  {
+    "file": "card_044_curiosity.png",
+    "text": "CURIOSITY",
+    "index": 44,
+    "tr": "merak"
+  },
+  {
+    "file": "card_045_delighted.png",
+    "text": "DELIGHTED",
+    "index": 45,
+    "tr": "memnun"
+  },
+  {
+    "file": "card_046_disabled.png",
+    "text": "DISABLED",
+    "index": 46,
+    "tr": "engelli"
+  },
+  {
+    "file": "card_047_drown.png",
+    "text": "DROWN",
+    "index": 47,
+    "tr": "boğulmak"
+  },
+  {
+    "file": "card_048_dam.png",
+    "text": "DAM",
+    "index": 48,
+    "tr": "baraj"
+  },
+  {
+    "file": "card_049_earnings.png",
+    "text": "EARNINGS",
+    "index": 49,
+    "tr": "kazanç"
+  },
+  {
+    "file": "card_050_peg.png",
+    "text": "PEG",
+    "index": 50,
+    "tr": "çivi"
+  },
+  {
+    "file": "card_051_encouraging.png",
+    "text": "ENCOURAGING",
+    "index": 51,
+    "tr": "teşvik edici"
+  },
+  {
+    "file": "card_052_parliament.png",
+    "text": "PARLIAMENT",
+    "index": 52,
+    "tr": "parlamento"
+  },
+  {
+    "file": "card_053_encouragement.png",
+    "text": "ENCOURAGEMENT",
+    "index": 53,
+    "tr": "teşvik"
+  },
+  {
+    "file": "card_054_embarrassment.png",
+    "text": "EMBARRASSMENT",
+    "index": 54,
+    "tr": "utanç"
+  },
+  {
+    "file": "card_055_peaceful.png",
+    "text": "PEACEFUL",
+    "index": 55,
+    "tr": "barışçıl"
+  },
+  {
+    "file": "card_056_performer.png",
+    "text": "PERFORMER",
+    "index": 56,
+    "tr": "icracı"
+  },
+  {
+    "file": "card_057_pit.png",
+    "text": "PIT",
+    "index": 57,
+    "tr": "çukur"
+  },
+  {
+    "file": "card_058_pensioner.png",
+    "text": "PENSIONER",
+    "index": 58,
+    "tr": "emekli"
+  },
+  {
+    "file": "card_059_poorly.png",
+    "text": "POORLY",
+    "index": 59,
+    "tr": "kötü"
+  },
+  {
+    "file": "card_060_peso.png",
+    "text": "PESO",
+    "index": 60,
+    "tr": "peso"
+  },
+  {
+    "file": "card_061_popularity.png",
+    "text": "POPULARITY",
+    "index": 61,
+    "tr": "popülerlik"
+  },
+  {
+    "file": "card_062_prod.png",
+    "text": "PROD",
+    "index": 62,
+    "tr": "dürtükleme"
+  },
+  {
+    "file": "card_063_portable.png",
+    "text": "PORTABLE",
+    "index": 63,
+    "tr": "taşınabilir"
+  },
+  {
+    "file": "card_064_postpone.png",
+    "text": "POSTPONE",
+    "index": 64,
+    "tr": "ertelemek"
+  },
+  {
+    "file": "card_065_prescription.png",
+    "text": "PRESCRIPTION",
+    "index": 65,
+    "tr": "reçete"
+  },
+  {
+    "file": "card_066_receiver.png",
+    "text": "RECEIVER",
+    "index": 66,
+    "tr": "alıcı"
+  },
+  {
+    "file": "card_067_queue.png",
+    "text": "QUEUE",
+    "index": 67,
+    "tr": "sıra"
+  },
+  {
+    "file": "card_068_refusal.png",
+    "text": "REFUSAL",
+    "index": 68,
+    "tr": "ret"
+  },
+  {
+    "file": "card_069_provider.png",
+    "text": "PROVIDER",
+    "index": 69,
+    "tr": "sağlayıcı"
+  },
+  {
+    "file": "card_070_rebuild.png",
+    "text": "REBUILD",
+    "index": 70,
+    "tr": "yeniden inşa etmek"
+  },
+  {
+    "file": "card_071_programmer.png",
+    "text": "PROGRAMMER",
+    "index": 71,
+    "tr": "programcı"
+  },
+  {
+    "file": "card_072_removal.png",
+    "text": "REMOVAL",
+    "index": 72,
+    "tr": "kaldırma"
+  },
+  {
+    "file": "card_073_repay.png",
+    "text": "REPAY",
+    "index": 73,
+    "tr": "borcunu ödemek"
+  },
+  {
+    "file": "card_074_rental.png",
+    "text": "RENTAL",
+    "index": 74,
+    "tr": "kiralama"
+  },
+  {
+    "file": "card_075_renew.png",
+    "text": "RENEW",
+    "index": 75,
+    "tr": "yenilemek"
+  },
+  {
+    "file": "card_076_luis_be_the_dozen_he_magle_the_matild_re.png",
+    "text": "LUIS BE THE DOZEN HE MAGLE. THE MATILD REMINDER",
+    "index": 76,
+    "tr": "Luis, elindeki düzinelerce kişidir. matil hatırlatma"
+  },
+  {
+    "file": "card_077_savers.png",
+    "text": "SAVERS",
+    "index": 77,
+    "tr": "koruyucular"
+  },
+  {
+    "file": "card_078_risky.png",
+    "text": "RISKY",
+    "index": 78,
+    "tr": "riskli"
+  },
+  {
+    "file": "card_079_jul_reservation.png",
+    "text": "JUL RESERVATION",
+    "index": 79,
+    "tr": "temmuz rezervasyonu"
+  },
+  {
+    "file": "card_080_residential.png",
+    "text": "RESIDENTIAL",
+    "index": 80,
+    "tr": "yerleşim"
+  },
+  {
+    "file": "card_081_repeatedly.png",
+    "text": "REPEATEDLY",
+    "index": 81,
+    "tr": "tekrar tekrar"
+  },
+  {
+    "file": "card_082_signature.png",
+    "text": "SIGNATURE",
+    "index": 82,
+    "tr": "imza"
+  },
+  {
+    "file": "card_083_script.png",
+    "text": "SCRIPT",
+    "index": 83,
+    "tr": "senaryo"
+  },
+  {
+    "file": "card_084_shield.png",
+    "text": "SHIELD",
+    "index": 84,
+    "tr": "kalkan"
+  },
+  {
+    "file": "card_085_scrap.png",
+    "text": "SCRAP",
+    "index": 85,
+    "tr": "hurda"
+  },
+  {
+    "file": "card_086_shortage.png",
+    "text": "SHORTAGE",
+    "index": 86,
+    "tr": "kıtlık"
+  },
+  {
+    "file": "card_087_setup.png",
+    "text": "SETUP",
+    "index": 87,
+    "tr": "kurmak"
+  },
+  {
+    "file": "card_088_slim.png",
+    "text": "SLIM",
+    "index": 88,
+    "tr": "ince"
+  },
+  {
+    "file": "card_089_subscribe.png",
+    "text": "SUBSCRIBE",
+    "index": 89,
+    "tr": "abone"
+  },
+  {
+    "file": "card_090_sole.png",
+    "text": "SOLE",
+    "index": 90,
+    "tr": "ayak tabanı"
+  },
+  {
+    "file": "card_091_steer.png",
+    "text": "STEER",
+    "index": 91,
+    "tr": "yönlendirmek"
+  },
+  {
+    "file": "card_092_the_appl_spy.png",
+    "text": "THE APPL SPY",
+    "index": 92,
+    "tr": "uygulama casusu"
+  },
+  {
+    "file": "card_093_suburb.png",
+    "text": "SUBURB",
+    "index": 93,
+    "tr": "banliyö"
+  },
+  {
+    "file": "card_094_tailor.png",
+    "text": "TAILOR",
+    "index": 94,
+    "tr": "terzi"
+  },
+  {
+    "file": "card_095_temporarily.png",
+    "text": "TEMPORARILY",
+    "index": 95,
+    "tr": "geçici olarak"
+  },
+  {
+    "file": "card_096_subscription.png",
+    "text": "SUBSCRIPTION",
+    "index": 96,
+    "tr": "abonelik"
+  },
+  {
+    "file": "card_097_theft.png",
+    "text": "THEFT",
+    "index": 97,
+    "tr": "hırsızlık"
+  },
+  {
+    "file": "card_098_triple.png",
+    "text": "TRIPLE",
+    "index": 98,
+    "tr": "üçlü"
+  },
+  {
+    "file": "card_099_timber.png",
+    "text": "TIMBER",
+    "index": 99,
+    "tr": "kereste"
+  },
+  {
+    "file": "card_100_trader.png",
+    "text": "TRADER",
+    "index": 100,
+    "tr": "tüccar"
+  },
+  {
+    "file": "card_101_tighten.png",
+    "text": "TIGHTEN",
+    "index": 101,
+    "tr": "sıkmak"
+  },
+  {
+    "file": "card_102_trainee.png",
+    "text": "TRAINEE",
+    "index": 102,
+    "tr": "stajyer"
+  },
+  {
+    "file": "card_103_tobacco.png",
+    "text": "TOBACCO",
+    "index": 103,
+    "tr": "tütün"
+  },
+  {
+    "file": "card_104_vacation.png",
+    "text": "VACATION",
+    "index": 104,
+    "tr": "tatil"
+  },
+  {
+    "file": "card_105_receipt_unpaid.png",
+    "text": "RECEIPT UNPAID",
+    "index": 105,
+    "tr": "ödenmemiş makbuz"
+  },
+  {
+    "file": "card_106_uncertain.png",
+    "text": "UNCERTAIN",
+    "index": 106,
+    "tr": "belirsiz"
+  },
+  {
+    "file": "card_107__tumble.png",
+    "text": "• TUMBLE",
+    "index": 107,
+    "tr": "• takla"
+  },
+  {
+    "file": "card_108_unfair.png",
+    "text": "UNFAIR",
+    "index": 108,
+    "tr": "haksız"
+  },
+  {
+    "file": "card_109_visa.png",
+    "text": "VISA",
+    "index": 109,
+    "tr": "Visa"
+  },
+  {
+    "file": "card_110_warehouse.png",
+    "text": "WAREHOUSE",
+    "index": 110,
+    "tr": "depo"
+  },
+  {
+    "file": "card_111_viewer.png",
+    "text": "VIEWER",
+    "index": 111,
+    "tr": "izleyici"
+  },
+  {
+    "file": "card_112_vest.png",
+    "text": "VEST",
+    "index": 112,
+    "tr": "yelek"
+  },
+  {
+    "file": "card_113_wireless.png",
+    "text": "WIRELESS",
+    "index": 113,
+    "tr": "kablosuz"
+  },
+  {
+    "file": "card_114_workplace.png",
+    "text": "WORKPLACE",
+    "index": 114,
+    "tr": "işyeri"
+  },
+  {
+    "file": "card_115_booklet.png",
+    "text": "BOOKLET",
+    "index": 115,
+    "tr": "kitapçık"
+  },
+  {
+    "file": "card_116_worsen.png",
+    "text": "WORSEN",
+    "index": 116,
+    "tr": "kötüleştirmek"
+  },
+  {
+    "file": "card_117_careless.png",
+    "text": "CARELESS",
+    "index": 117,
+    "tr": "dikkatsiz"
+  },
+  {
+    "file": "card_118_baggage.png",
+    "text": "BAGGAGE",
+    "index": 118,
+    "tr": "bagaj"
+  },
+  {
+    "file": "card_119_yearly.png",
+    "text": "YEARLY",
+    "index": 119,
+    "tr": "yıllık"
+  },
+  {
+    "file": "card_120_collector.png",
+    "text": "COLLECTOR",
+    "index": 120,
+    "tr": "kolektör"
+  },
+  {
+    "file": "card_121_cleanliness.png",
+    "text": "CLEANLINESS",
+    "index": 121,
+    "tr": "temizlik"
+  },
+  {
+    "file": "card_122_flyer.png",
+    "text": "FLYER",
+    "index": 122,
+    "tr": "el ilanı"
+  },
+  {
+    "file": "card_123_22_comfortably.png",
+    "text": "2-2 COMFORTABLY",
+    "index": 123,
+    "tr": "2-2 rahat"
+  },
+  {
+    "file": "card_124_fitness.png",
+    "text": "FITNESS",
+    "index": 124,
+    "tr": "uygunluk"
+  },
+  {
+    "file": "card_125_honestly.png",
+    "text": "HONESTLY",
+    "index": 125,
+    "tr": "Açıkçası"
+  },
+  {
+    "file": "card_126_homeless.png",
+    "text": "HOMELESS",
+    "index": 126,
+    "tr": "evsiz"
+  },
+  {
+    "file": "card_127_hourly.png",
+    "text": "HOURLY",
+    "index": 127,
+    "tr": "saatlik"
+  },
+  {
+    "file": "card_128_icy.png",
+    "text": "ICY",
+    "index": 128,
+    "tr": "buzlu"
+  },
+  {
+    "file": "card_129_fortunately.png",
+    "text": "FORTUNATELY",
+    "index": 129,
+    "tr": "neyse ki"
+  },
+  {
+    "file": "card_130_postal.png",
+    "text": "POSTAL",
+    "index": 130,
+    "tr": "posta"
+  },
+  {
+    "file": "card_131_photographer.png",
+    "text": "PHOTOGRAPHER",
+    "index": 131,
+    "tr": "fotoğrafçı"
+  },
+  {
+    "file": "card_132_photography.png",
+    "text": "PHOTOGRAPHY",
+    "index": 132,
+    "tr": "fotoğrafçılık"
+  },
+  {
+    "file": "card_133_postage.png",
+    "text": "POSTAGE",
+    "index": 133,
+    "tr": "posta ücreti"
+  },
+  {
+    "file": "card_134_presenter.png",
+    "text": "PRESENTER",
+    "index": 134,
+    "tr": "sunucu"
+  },
+  {
+    "file": "card_135_pottery.png",
+    "text": "POTTERY",
+    "index": 135,
+    "tr": "çömlek"
+  },
+  {
+    "file": "card_136_reopen.png",
+    "text": "REOPEN",
+    "index": 136,
+    "tr": "yeniden açmak"
+  },
+  {
+    "file": "card_137_sender.png",
+    "text": "SENDER",
+    "index": 137,
+    "tr": "gönderen"
+  },
+  {
+    "file": "card_138_protective.png",
+    "text": "PROTECTIVE",
+    "index": 138,
+    "tr": "koruyucu"
+  },
+  {
+    "file": "card_139_taker.png",
+    "text": "TAKER",
+    "index": 139,
+    "tr": "alıcı"
+  },
+  {
+    "file": "card_140_timer.png",
+    "text": "TIMER",
+    "index": 140,
+    "tr": "zamanlayıcı"
+  },
+  {
+    "file": "card_141_shorten.png",
+    "text": "SHORTEN",
+    "index": 141,
+    "tr": "kısaltmak"
+  },
+  {
+    "file": "card_142_specially.png",
+    "text": "SPECIALLY",
+    "index": 142,
+    "tr": "özel olarak"
+  },
+  {
+    "file": "card_143_trainer.png",
+    "text": "TRAINER",
+    "index": 143,
+    "tr": "eğitmen"
+  },
+  {
+    "file": "card_144_unsure.png",
+    "text": "UNSURE",
+    "index": 144,
+    "tr": "emin değilim"
+  },
+  {
+    "file": "card_145_unused.png",
+    "text": "UNUSED",
+    "index": 145,
+    "tr": "kullanılmayan"
+  },
+  {
+    "file": "card_146_adapter.png",
+    "text": "ADAPTER",
+    "index": 146,
+    "tr": "adaptör"
+  },
+  {
+    "file": "card_147_uncomfortable.png",
+    "text": "UNCOMFORTABLE",
+    "index": 147,
+    "tr": "rahatsız"
+  },
+  {
+    "file": "card_148_amuse.png",
+    "text": "AMUSE",
+    "index": 148,
+    "tr": "eğlendirmek"
+  },
+  {
+    "file": "card_149_announcer.png",
+    "text": "ANNOUNCER",
+    "index": 149,
+    "tr": "spiker"
+  },
+  {
+    "file": "card_150_disappointment.png",
+    "text": "DISAPPOINTMENT",
+    "index": 150,
+    "tr": "hayal kırıklığı"
+  },
+  {
+    "file": "card_151_decorate.png",
+    "text": "DECORATE",
+    "index": 151,
+    "tr": "süslemek"
+  },
+  {
+    "file": "card_152_electrician.png",
+    "text": "ELECTRICIAN",
+    "index": 152,
+    "tr": "elektrikçi"
+  },
+  {
+    "file": "card_153_cloth.png",
+    "text": "CLOTH",
+    "index": 153,
+    "tr": "kumaş"
+  },
+  {
+    "file": "card_154_annoy_6.png",
+    "text": "ANNOY 6",
+    "index": 154,
+    "tr": "sinirlendirmek 6"
+  },
+  {
+    "file": "card_155_environmentally.png",
+    "text": "ENVIRONMENTALLY",
+    "index": 155,
+    "tr": "çevresel"
+  },
+  {
+    "file": "card_156_energetic.png",
+    "text": "ENERGETIC",
+    "index": 156,
+    "tr": "enerjik"
+  },
+  {
+    "file": "card_157_harmful.png",
+    "text": "HARMFUL",
+    "index": 157,
+    "tr": "zararlı"
+  },
+  {
+    "file": "card_158_librarian.png",
+    "text": "LIBRARIAN",
+    "index": 158,
+    "tr": "kütüphaneci"
+  },
+  {
+    "file": "card_159_handy.png",
+    "text": "HANDY",
+    "index": 159,
+    "tr": "kullanışlı"
+  },
+  {
+    "file": "card_160_lightweight.png",
+    "text": "LIGHTWEIGHT",
+    "index": 160,
+    "tr": "hafif"
+  },
+  {
+    "file": "card_161_polish.png",
+    "text": "POLISH",
+    "index": 161,
+    "tr": "cila"
+  },
+  {
+    "file": "card_162_optional.png",
+    "text": "OPTIONAL",
+    "index": 162,
+    "tr": "isteğe bağlı"
+  },
+  {
+    "file": "card_163_mower.png",
+    "text": "MOWER",
+    "index": 163,
+    "tr": "biçme makinesi"
+  },
+  {
+    "file": "card_164_organizer.png",
+    "text": "ORGANIZER",
+    "index": 164,
+    "tr": "organizatör"
+  },
+  {
+    "file": "card_165_reschedule.png",
+    "text": "RESCHEDULE",
+    "index": 165,
+    "tr": "yeniden planlamak"
+  },
+  {
+    "file": "card_166_pollute.png",
+    "text": "POLLUTE",
+    "index": 166,
+    "tr": "kirletmek"
+  },
+  {
+    "file": "card_167_relaxation.png",
+    "text": "RELAXATION",
+    "index": 167,
+    "tr": "gevşeme"
+  },
+  {
+    "file": "card_168_sew.png",
+    "text": "SEW",
+    "index": 168,
+    "tr": "dikmek"
+  },
+  {
+    "file": "card_169_redecorate.png",
+    "text": "REDECORATE",
+    "index": 169,
+    "tr": "yeniden dekore etmek"
+  },
+  {
+    "file": "card_170_repetition.png",
+    "text": "REPETITION",
+    "index": 170,
+    "tr": "tekrarlama"
+  },
+  {
+    "file": "card_171_scenery.png",
+    "text": "SCENERY",
+    "index": 171,
+    "tr": "manzara"
+  },
+  {
+    "file": "card_172_smoothly.png",
+    "text": "SMOOTHLY",
+    "index": 172,
+    "tr": "sorunsuz"
+  },
+  {
+    "file": "card_173_unpleasant.png",
+    "text": "UNPLEASANT",
+    "index": 173,
+    "tr": "tatsız"
+  },
+  {
+    "file": "card_174_unfamiliar.png",
+    "text": "UNFAMILIAR",
+    "index": 174,
+    "tr": "yabancı"
+  },
+  {
+    "file": "card_175_chilly.png",
+    "text": "CHILLY",
+    "index": 175,
+    "tr": "serin"
+  },
+  {
+    "file": "card_176_cooperate.png",
+    "text": "COOPERATE",
+    "index": 176,
+    "tr": "işbirliği yapmak"
+  },
+  {
+    "file": "card_177_apology.png",
+    "text": "APOLOGY",
+    "index": 177,
+    "tr": "özür"
+  },
+  {
+    "file": "card_178_explorer.png",
+    "text": "EXPLORER",
+    "index": 178,
+    "tr": "kaşif"
+  },
+  {
+    "file": "card_179_donate.png",
+    "text": "DONATE",
+    "index": 179,
+    "tr": "bağış yapmak"
+  },
+  {
+    "file": "card_180_enthusiast.png",
+    "text": "ENTHUSIAST",
+    "index": 180,
+    "tr": "meraklı"
+  },
+  {
+    "file": "card_181_contestant.png",
+    "text": "CONTESTANT",
+    "index": 181,
+    "tr": "yarışmacı"
+  },
+  {
+    "file": "card_182_enthusiastically.png",
+    "text": "ENTHUSIASTICALLY",
+    "index": 182,
+    "tr": "coşkuyla"
+  },
+  {
+    "file": "card_183_translator.png",
+    "text": "TRANSLATOR",
+    "index": 183,
+    "tr": "çevirmen"
+  },
+  {
+    "file": "card_184_graduation.png",
+    "text": "GRADUATION",
+    "index": 184,
+    "tr": "mezuniyet"
+  },
+  {
+    "file": "card_185_absent.png",
+    "text": "ABSENT",
+    "index": 185,
+    "tr": "mevcut olmayan"
+  },
+  {
+    "file": "card_186_interpreter.png",
+    "text": "INTERPRETER",
+    "index": 186,
+    "tr": "tercüman"
+  },
+  {
+    "file": "card_187_receptionist.png",
+    "text": "RECEPTIONIST",
+    "index": 187,
+    "tr": "resepsiyonist"
+  },
+  {
+    "file": "card_188_aboard.png",
+    "text": "ABOARD",
+    "index": 188,
+    "tr": "gemide"
+  },
+  {
+    "file": "card_189_clerk.png",
+    "text": "CLERK",
+    "index": 189,
+    "tr": "katip"
+  },
+  {
+    "file": "card_190_cabin.png",
+    "text": "CABIN",
+    "index": 190,
+    "tr": "kabin"
+  },
+  {
+    "file": "card_191_basement.png",
+    "text": "BASEMENT",
+    "index": 191,
+    "tr": "bodrum"
+  },
+  {
+    "file": "card_192_chef.png",
+    "text": "CHEF",
+    "index": 192,
+    "tr": "şef"
+  },
+  {
+    "file": "card_193_congratulate.png",
+    "text": "CONGRATULATE",
+    "index": 193,
+    "tr": "tebrik etmek"
+  },
+  {
+    "file": "card_194_costume.png",
+    "text": "COSTUME",
+    "index": 194,
+    "tr": "kostüm"
+  },
+  {
+    "file": "card_195_dock.png",
+    "text": "DOCK",
+    "index": 195,
+    "tr": "rıhtım"
+  },
+  {
+    "file": "card_196_distract.png",
+    "text": "DISTRACT",
+    "index": 196,
+    "tr": "dikkatini dağıtmak"
+  },
+  {
+    "file": "card_197_dull.png",
+    "text": "DULL",
+    "index": 197,
+    "tr": "sıkıcı"
+  },
+  {
+    "file": "card_198_documentary.png",
+    "text": "DOCUMENTARY",
+    "index": 198,
+    "tr": "belgesel"
+  },
+  {
+    "file": "card_199_noose.png",
+    "text": "NOOSE",
+    "index": 199,
+    "tr": "ilmik"
+  },
+  {
+    "file": "card_200_off_the_top_of_my_head.png",
+    "text": "OFF THE TOP OF MY HEAD",
+    "index": 200,
+    "tr": "başımın üstünden"
+  },
+  {
+    "file": "card_201_surefire.png",
+    "text": "SUREFIRE",
+    "index": 201,
+    "tr": "kesin ateş"
+  },
+  {
+    "file": "card_202_calling_card.png",
+    "text": "CALLING CARD",
+    "index": 202,
+    "tr": "arama kartı"
+  },
+  {
+    "file": "card_203_take_a_while.png",
+    "text": "TAKE A WHILE",
+    "index": 203,
+    "tr": "biraz zaman ayır"
+  },
+  {
+    "file": "card_204_curl_up.png",
+    "text": "CURL UP",
+    "index": 204,
+    "tr": "kıvrılmak"
+  },
+  {
+    "file": "card_205_androgynous.png",
+    "text": "ANDROGYNOUS",
+    "index": 205,
+    "tr": "androjen"
+  },
+  {
+    "file": "card_206_geek.png",
+    "text": "GEEK",
+    "index": 206,
+    "tr": "ahmak"
+  },
+  {
+    "file": "card_207_in_my_case.png",
+    "text": "IN MY CASE",
+    "index": 207,
+    "tr": "benim durumumda"
+  },
+  {
+    "file": "card_208_give_someone_the_creeps.png",
+    "text": "GIVE SOMEONE THE CREEPS",
+    "index": 208,
+    "tr": "birine tüyler ürpertmek"
+  },
+  {
+    "file": "card_209_go_off_on_a_tangent.png",
+    "text": "GO OFF ON A TANGENT",
+    "index": 209,
+    "tr": "bir teğete doğru yola çıkmak"
+  },
+  {
+    "file": "card_210_swoop_up.png",
+    "text": "SWOOP UP",
+    "index": 210,
+    "tr": "hızla yukarı çıkmak"
+  },
+  {
+    "file": "card_211_plug_socket.png",
+    "text": "PLUG SOCKET",
+    "index": 211,
+    "tr": "priz"
+  },
+  {
+    "file": "card_212_to_be_admitted.png",
+    "text": "TO BE ADMITTED",
+    "index": 212,
+    "tr": "kabul edilmek"
+  },
+  {
+    "file": "card_213_im_not_going_to_lie.png",
+    "text": "I'M NOT GOING TO LIE",
+    "index": 213,
+    "tr": "yalan söylemeyeceğim"
+  },
+  {
+    "file": "card_214_blowout.png",
+    "text": "BLOWOUT",
+    "index": 214,
+    "tr": "üflemek"
+  },
+  {
+    "file": "card_215_laugh_in_someones_face.png",
+    "text": "LAUGH IN SOMEONE'S FACE",
+    "index": 215,
+    "tr": "birinin yüzüne gülmek"
+  },
+  {
+    "file": "card_216_gargle.png",
+    "text": "GARGLE",
+    "index": 216,
+    "tr": "gargara"
+  },
+  {
+    "file": "card_217_glutton.png",
+    "text": "GLUTTON",
+    "index": 217,
+    "tr": "obur"
+  },
+  {
+    "file": "card_218_wellspoken.png",
+    "text": "WELL-SPOKEN",
+    "index": 218,
+    "tr": "iyi konuşan"
+  },
+  {
+    "file": "card_219_highs_and_lows.png",
+    "text": "HIGHS AND LOWS",
+    "index": 219,
+    "tr": "yüksekler ve alçaklar"
+  },
+  {
+    "file": "card_220_tear_out.png",
+    "text": "TEAR OUT",
+    "index": 220,
+    "tr": "yırtmak"
+  },
+  {
+    "file": "card_221_indoors.png",
+    "text": "INDOORS",
+    "index": 221,
+    "tr": "Kapalı alanlarda"
+  },
+  {
+    "file": "card_222_alarm.png",
+    "text": "ALARM",
+    "index": 222,
+    "tr": "alarm"
+  },
+  {
+    "file": "card_223_cross.png",
+    "text": "CROSS",
+    "index": 223,
+    "tr": "geçmek"
+  },
+  {
+    "file": "card_224_give_it_a_shot.png",
+    "text": "GIVE IT A SHOT",
+    "index": 224,
+    "tr": "bir şans ver"
+  },
+  {
+    "file": "card_225_whomever.png",
+    "text": "WHOMEVER",
+    "index": 225,
+    "tr": "kim olursa olsun"
+  },
+  {
+    "file": "card_226_give_someone_kudos.png",
+    "text": "GIVE SOMEONE KUDOS",
+    "index": 226,
+    "tr": "birine övgüde bulunmak"
+  },
+  {
+    "file": "card_227_go_hand_in_hand_with.png",
+    "text": "GO HAND IN HAND WITH",
+    "index": 227,
+    "tr": "el ele gitmek"
+  },
+  {
+    "file": "card_228_strict_with.png",
+    "text": "STRICT WITH",
+    "index": 228,
+    "tr": "katı"
+  },
+  {
+    "file": "card_229_upper.png",
+    "text": "UPPER",
+    "index": 229,
+    "tr": "üst"
+  },
+  {
+    "file": "card_230_spurt.png",
+    "text": "SPURT",
+    "index": 230,
+    "tr": "hamle"
+  },
+  {
+    "file": "card_231_smack_in_the_middle.png",
+    "text": "SMACK IN THE MIDDLE",
+    "index": 231,
+    "tr": "ortasına şaplak atmak"
+  },
+  {
+    "file": "card_232_pour_out.png",
+    "text": "POUR OUT",
+    "index": 232,
+    "tr": "dökmek"
+  },
+  {
+    "file": "card_233_difficult.png",
+    "text": "DIFFICULT",
+    "index": 233,
+    "tr": "zor"
+  },
+  {
+    "file": "card_234_heartbreaking.png",
+    "text": "HEARTBREAKING",
+    "index": 234,
+    "tr": "yürek parçalayıcı"
+  },
+  {
+    "file": "card_235_act.png",
+    "text": "ACT",
+    "index": 235,
+    "tr": "davranmak"
+  },
+  {
+    "file": "card_236_attached.png",
+    "text": "ATTACHED",
+    "index": 236,
+    "tr": "ekli"
+  },
+  {
+    "file": "card_237_envelope.png",
+    "text": "ENVELOPE",
+    "index": 237,
+    "tr": "mektup"
+  },
+  {
+    "file": "card_238_wooden.png",
+    "text": "WOODEN",
+    "index": 238,
+    "tr": "ahşap"
+  },
+  {
+    "file": "card_239_tricky.png",
+    "text": "TRICKY",
+    "index": 239,
+    "tr": "zorlu"
+  },
+  {
+    "file": "card_240_perkiness.png",
+    "text": "PERKINESS",
+    "index": 240,
+    "tr": "canlılık"
+  },
+  {
+    "file": "card_241_piano.png",
+    "text": "PIANO",
+    "index": 241,
+    "tr": "piyano"
+  },
+  {
+    "file": "card_242_stir_up.png",
+    "text": "STIR UP",
+    "index": 242,
+    "tr": "karıştırmak"
+  },
+  {
+    "file": "card_243_difference.png",
+    "text": "DIFFERENCE",
+    "index": 243,
+    "tr": "fark"
+  },
+  {
+    "file": "card_244_distorted.png",
+    "text": "DISTORTED",
+    "index": 244,
+    "tr": "çarpık"
+  },
+  {
+    "file": "card_245_known.png",
+    "text": "KNOWN",
+    "index": 245,
+    "tr": "bilinen"
+  },
+  {
+    "file": "card_246_safety_blanket.png",
+    "text": "SAFETY BLANKET",
+    "index": 246,
+    "tr": "güvenlik battaniyesi"
+  },
+  {
+    "file": "card_247_langrage.png",
+    "text": "LANGRAGE",
+    "index": 247,
+    "tr": "konuşma"
+  },
+  {
+    "file": "card_248_case_in_point.png",
+    "text": "CASE IN POINT",
+    "index": 248,
+    "tr": "önemli bir durum"
+  },
+  {
+    "file": "card_249_painkiller.png",
+    "text": "PAINKILLER",
+    "index": 249,
+    "tr": "ağrı kesici"
+  },
+  {
+    "file": "card_250_lady.png",
+    "text": "LADY",
+    "index": 250,
+    "tr": "bayan"
+  },
+  {
+    "file": "card_251_penny.png",
+    "text": "PENNY",
+    "index": 251,
+    "tr": "kuruş"
+  },
+  {
+    "file": "card_252_play_around.png",
+    "text": "PLAY AROUND",
+    "index": 252,
+    "tr": "oynamak"
+  },
+  {
+    "file": "card_253_garage.png",
+    "text": "GARAGE",
+    "index": 253,
+    "tr": "garaj"
+  },
+  {
+    "file": "card_254_solid.png",
+    "text": "SOLID",
+    "index": 254,
+    "tr": "sağlam"
+  },
+  {
+    "file": "card_255_foreigner.png",
+    "text": "FOREIGNER",
+    "index": 255,
+    "tr": "yabancı"
+  },
+  {
+    "file": "card_256_tennis.png",
+    "text": "TENNIS",
+    "index": 256,
+    "tr": "tenis"
+  },
+  {
+    "file": "card_257_listener.png",
+    "text": "LISTENER",
+    "index": 257,
+    "tr": "dinleyici"
+  },
+  {
+    "file": "card_258_male.png",
+    "text": "MALE",
+    "index": 258,
+    "tr": "erkek"
+  },
+  {
+    "file": "card_259_cartoon.png",
+    "text": "CARTOON",
+    "index": 259,
+    "tr": "karikatür"
+  },
+  {
+    "file": "card_260_personal.png",
+    "text": "PERSONAL",
+    "index": 260,
+    "tr": "kişisel"
+  },
+  {
+    "file": "card_261_preface.png",
+    "text": "PREFACE",
+    "index": 261,
+    "tr": "önsöz"
+  },
+  {
+    "file": "card_262_freak_out.png",
+    "text": "FREAK OUT",
+    "index": 262,
+    "tr": "çıldırmak"
+  },
+  {
+    "file": "card_263_beautify.png",
+    "text": "BEAUTIFY",
+    "index": 263,
+    "tr": "güzelleştirmek"
+  },
+  {
+    "file": "card_264_magazine.png",
+    "text": "MAGAZINE",
+    "index": 264,
+    "tr": "dergi"
+  },
+  {
+    "file": "card_265_cover_up.png",
+    "text": "COVER UP",
+    "index": 265,
+    "tr": "Örtmek"
+  },
+  {
+    "file": "card_266_suffer.png",
+    "text": "SUFFER",
+    "index": 266,
+    "tr": "acı çekmek"
+  },
+  {
+    "file": "card_267_blow_in.png",
+    "text": "BLOW IN",
+    "index": 267,
+    "tr": "üflemek"
+  },
+  {
+    "file": "card_268_out_of_whack.png",
+    "text": "OUT OF WHACK",
+    "index": 268,
+    "tr": "çılgın"
+  },
+  {
+    "file": "card_269_tick_off.png",
+    "text": "TICK OFF",
+    "index": 269,
+    "tr": "işaretlemek"
+  },
+  {
+    "file": "card_270_desert.png",
+    "text": "DESERT",
+    "index": 270,
+    "tr": "çöl"
+  },
+  {
+    "file": "card_271_scatter_around.png",
+    "text": "SCATTER AROUND",
+    "index": 271,
+    "tr": "etrafa dağılmak"
+  },
+  {
+    "file": "card_272_cup_of_joe.png",
+    "text": "CUP OF JOE",
+    "index": 272,
+    "tr": "bir fincan joe"
+  },
+  {
+    "file": "card_273_prisoner.png",
+    "text": "PRISONER",
+    "index": 273,
+    "tr": "mahkum"
+  },
+  {
+    "file": "card_274_spur_someone_to_action.png",
+    "text": "SPUR SOMEONE TO ACTION",
+    "index": 274,
+    "tr": "birini harekete geçmeye teşvik etmek"
+  },
+  {
+    "file": "card_275_969_916_characteristic.png",
+    "text": "969 91%6 CHARACTERISTIC",
+    "index": 275,
+    "tr": "969 %916 karakteristik"
+  },
+  {
+    "file": "card_276_shall.png",
+    "text": "SHALL",
+    "index": 276,
+    "tr": "olacak"
+  },
+  {
+    "file": "card_277_get_someone_down.png",
+    "text": "GET SOMEONE DOWN",
+    "index": 277,
+    "tr": "birini yere düşürmek"
+  },
+  {
+    "file": "card_278_lonely.png",
+    "text": "LONELY",
+    "index": 278,
+    "tr": "yalnız"
+  },
+  {
+    "file": "card_279_ski.png",
+    "text": "SKI",
+    "index": 279,
+    "tr": "kayak"
+  },
+  {
+    "file": "card_280_teaching.png",
+    "text": "TEACHING",
+    "index": 280,
+    "tr": "öğretim"
+  },
+  {
+    "file": "card_281_naysayer.png",
+    "text": "NAYSAYER",
+    "index": 281,
+    "tr": "karşı çıkan kimse"
+  },
+  {
+    "file": "card_282_devoted.png",
+    "text": "DEVOTED",
+    "index": 282,
+    "tr": "sadık"
+  },
+  {
+    "file": "card_283_annoyed.png",
+    "text": "ANNOYED",
+    "index": 283,
+    "tr": "sinirli"
+  },
+  {
+    "file": "card_284_panicky.png",
+    "text": "PANICKY",
+    "index": 284,
+    "tr": "panikli"
+  },
+  {
+    "file": "card_285_surface.png",
+    "text": "SURFACE",
+    "index": 285,
+    "tr": "yüzey"
+  },
+  {
+    "file": "card_286_silver.png",
+    "text": "SILVER",
+    "index": 286,
+    "tr": "gümüş"
+  },
+  {
+    "file": "card_287_jumble.png",
+    "text": "JUMBLE",
+    "index": 287,
+    "tr": "karmakarışık"
+  },
+  {
+    "file": "card_288_freezer.png",
+    "text": "FREEZER",
+    "index": 288,
+    "tr": "dondurucu"
+  },
+  {
+    "file": "card_289_fancy.png",
+    "text": "FANCY",
+    "index": 289,
+    "tr": "süslü"
+  },
+  {
+    "file": "card_290_firmly.png",
+    "text": "FIRMLY",
+    "index": 290,
+    "tr": "sıkıca"
+  },
+  {
+    "file": "card_291_sail_the_seven_seas.png",
+    "text": "SAIL THE SEVEN SEAS",
+    "index": 291,
+    "tr": "yedi denize yelken aç"
+  },
+  {
+    "file": "card_292_annoying.png",
+    "text": "ANNOYING",
+    "index": 292,
+    "tr": "sinir bozucu"
+  },
+  {
+    "file": "card_293_hunger.png",
+    "text": "HUNGER",
+    "index": 293,
+    "tr": "açlık"
+  },
+  {
+    "file": "card_294_product.png",
+    "text": "PRODUCT",
+    "index": 294,
+    "tr": "ürün"
+  },
+  {
+    "file": "card_295_sleeve.png",
+    "text": "SLEEVE",
+    "index": 295,
+    "tr": "elbise kolu"
+  },
+  {
+    "file": "card_296_remaining.png",
+    "text": "REMAINING",
+    "index": 296,
+    "tr": "geriye kalan"
+  },
+  {
+    "file": "card_297_latch_on.png",
+    "text": "LATCH ON",
+    "index": 297,
+    "tr": "kavramak"
+  },
+  {
+    "file": "card_298_photocopier.png",
+    "text": "PHOTOCOPIER",
+    "index": 298,
+    "tr": "fotokopi makinesi"
+  },
+  {
+    "file": "card_299_bizarre.png",
+    "text": "BIZARRE",
+    "index": 299,
+    "tr": "tuhaf"
+  },
+  {
+    "file": "card_300_gas.png",
+    "text": "GAS",
+    "index": 300,
+    "tr": "gaz"
+  },
+  {
+    "file": "card_301_sidewalk.png",
+    "text": "SIDEWALK",
+    "index": 301,
+    "tr": "kaldırım"
+  },
+  {
+    "file": "card_302_shave.png",
+    "text": "SHAVE",
+    "index": 302,
+    "tr": "tıraş olmak"
+  },
+  {
+    "file": "card_303_technician.png",
+    "text": "TECHNICIAN",
+    "index": 303,
+    "tr": "teknisyen"
+  },
+  {
+    "file": "card_304_depressing.png",
+    "text": "DEPRESSING",
+    "index": 304,
+    "tr": "moral bozucu"
+  },
+  {
+    "file": "card_305_replace.png",
+    "text": "REPLACE",
+    "index": 305,
+    "tr": "yer değiştirmek"
+  },
+  {
+    "file": "card_306_crane.png",
+    "text": "CRANE",
+    "index": 306,
+    "tr": "vinç"
+  },
+  {
+    "file": "card_307_almost.png",
+    "text": "ALMOST",
+    "index": 307,
+    "tr": "neredeyse"
+  },
+  {
+    "file": "card_308_once_and_for_all.png",
+    "text": "ONCE AND FOR ALL",
+    "index": 308,
+    "tr": "bir kez ve herkes için"
+  },
+  {
+    "file": "card_309_it_takes_two_to_tango.png",
+    "text": "IT TAKES TWO TO TANGO",
+    "index": 309,
+    "tr": "tango için iki kişi gerekir"
+  },
+  {
+    "file": "card_310_green_thumb.png",
+    "text": "GREEN THUMB",
+    "index": 310,
+    "tr": "yeşil başparmak"
+  },
+  {
+    "file": "card_311_handbook.png",
+    "text": "HANDBOOK",
+    "index": 311,
+    "tr": "el kitabı"
+  },
+  {
+    "file": "card_312_secretary.png",
+    "text": "SECRETARY",
+    "index": 312,
+    "tr": "sekreter"
+  },
+  {
+    "file": "card_313_distance.png",
+    "text": "DISTANCE",
+    "index": 313,
+    "tr": "mesafe"
+  },
+  {
+    "file": "card_314_environmental.png",
+    "text": "ENVIRONMENTAL",
+    "index": 314,
+    "tr": "çevresel"
+  },
+  {
+    "file": "card_315_cruel.png",
+    "text": "CRUEL",
+    "index": 315,
+    "tr": "acımasız"
+  },
+  {
+    "file": "card_316_stove.png",
+    "text": "STOVE",
+    "index": 316,
+    "tr": "soba"
+  },
+  {
+    "file": "card_317_bunch.png",
+    "text": "BUNCH",
+    "index": 317,
+    "tr": "demet"
+  },
+  {
+    "file": "card_318_compliment.png",
+    "text": "COMPLIMENT",
+    "index": 318,
+    "tr": "iltifat"
+  },
+  {
+    "file": "card_319_dive_into.png",
+    "text": "DIVE INTO",
+    "index": 319,
+    "tr": "içine dalmak"
+  },
+  {
+    "file": "card_320_dissect.png",
+    "text": "DISSECT",
+    "index": 320,
+    "tr": "incelemek"
+  },
+  {
+    "file": "card_321_rev.png",
+    "text": "REV",
+    "index": 321,
+    "tr": "devir"
+  },
+  {
+    "file": "card_322_outward.png",
+    "text": "OUTWARD",
+    "index": 322,
+    "tr": "dışa doğru"
+  },
+  {
+    "file": "card_323_violin.png",
+    "text": "VIOLIN",
+    "index": 323,
+    "tr": "keman"
+  },
+  {
+    "file": "card_324_special.png",
+    "text": "SPECIAL",
+    "index": 324,
+    "tr": "özel"
+  },
+  {
+    "file": "card_325_stick_around.png",
+    "text": "STICK AROUND",
+    "index": 325,
+    "tr": "etrafta dolaşmak"
+  },
+  {
+    "file": "card_326_roam.png",
+    "text": "ROAM",
+    "index": 326,
+    "tr": "dolaşmak"
+  },
+  {
+    "file": "card_327_lovely.png",
+    "text": "LOVELY",
+    "index": 327,
+    "tr": "sevimli"
+  },
+  {
+    "file": "card_328_weekday.png",
+    "text": "WEEKDAY",
+    "index": 328,
+    "tr": "hafta içi"
+  },
+  {
+    "file": "card_329_handle.png",
+    "text": "HANDLE",
+    "index": 329,
+    "tr": "halletmek"
+  },
+  {
+    "file": "card_330_run_into.png",
+    "text": "RUN INTO",
+    "index": 330,
+    "tr": "karşılaşmak"
+  },
+  {
+    "file": "card_331_supper.png",
+    "text": "SUPPER",
+    "index": 331,
+    "tr": "akşam yemeği"
+  },
+  {
+    "file": "card_332_on_edge.png",
+    "text": "ON EDGE",
+    "index": 332,
+    "tr": "sınırda"
+  },
+  {
+    "file": "card_333_heat.png",
+    "text": "HEAT",
+    "index": 333,
+    "tr": "sıcaklık"
+  },
+  {
+    "file": "card_334_coincidentally.png",
+    "text": "COINCIDENTALLY",
+    "index": 334,
+    "tr": "tesadüfen"
+  },
+  {
+    "file": "card_335_diploma.png",
+    "text": "DIPLOMA",
+    "index": 335,
+    "tr": "diploma"
+  },
+  {
+    "file": "card_336_dodgy.png",
+    "text": "DODGY",
+    "index": 336,
+    "tr": "tehlikeli"
+  },
+  {
+    "file": "card_337_alarm.png",
+    "text": "ALARM",
+    "index": 337,
+    "tr": "alarm"
+  },
+  {
+    "file": "card_338_celebration.png",
+    "text": "CELEBRATION",
+    "index": 338,
+    "tr": "kutlama"
+  },
+  {
+    "file": "card_339_reach.png",
+    "text": "REACH",
+    "index": 339,
+    "tr": "ulaşmak"
+  },
+  {
+    "file": "card_340_club.png",
+    "text": "CLUB",
+    "index": 340,
+    "tr": "kulüp"
+  },
+  {
+    "file": "card_341_tuning.png",
+    "text": "TUNING",
+    "index": 341,
+    "tr": "ayarlama"
+  },
+  {
+    "file": "card_342_joke_1_credit.png",
+    "text": "JOKE 1 CREDIT",
+    "index": 342,
+    "tr": "şaka 1 kredi"
+  },
+  {
+    "file": "card_343_member.png",
+    "text": "MEMBER",
+    "index": 343,
+    "tr": "üye"
+  },
+  {
+    "file": "card_344_step.png",
+    "text": "STEP",
+    "index": 344,
+    "tr": "adım"
+  },
+  {
+    "file": "card_345_curved.png",
+    "text": "CURVED",
+    "index": 345,
+    "tr": "kavisli"
+  },
+  {
+    "file": "card_346_developing.png",
+    "text": "DEVELOPING",
+    "index": 346,
+    "tr": "gelişen"
+  },
+  {
+    "file": "card_347_beard.png",
+    "text": "BEARD",
+    "index": 347,
+    "tr": "sakal"
+  },
+  {
+    "file": "card_348_include.png",
+    "text": "INCLUDE",
+    "index": 348,
+    "tr": "katmak"
+  },
+  {
+    "file": "card_349_tent.png",
+    "text": "TENT",
+    "index": 349,
+    "tr": "çadır"
+  },
+  {
+    "file": "card_350_showroom.png",
+    "text": "SHOWROOM",
+    "index": 350,
+    "tr": "showroom"
+  },
+  {
+    "file": "card_351_break_down.png",
+    "text": "BREAK DOWN",
+    "index": 351,
+    "tr": "bozulma"
+  },
+  {
+    "file": "card_352_tile.png",
+    "text": "TILE",
+    "index": 352,
+    "tr": "kiremit"
+  },
+  {
+    "file": "card_353_tablecloth.png",
+    "text": "TABLECLOTH",
+    "index": 353,
+    "tr": "masa örtüsü"
+  },
+  {
+    "file": "card_354_apply.png",
+    "text": "APPLY",
+    "index": 354,
+    "tr": "uygula"
+  },
+  {
+    "file": "card_355_according_to.png",
+    "text": "ACCORDING TO",
+    "index": 355,
+    "tr": "buna göre"
+  },
+  {
+    "file": "card_356_modem.png",
+    "text": "MODEM",
+    "index": 356,
+    "tr": "modem"
+  },
+  {
+    "file": "card_357_exam.png",
+    "text": "EXAM",
+    "index": 357,
+    "tr": "sınav"
+  },
+  {
+    "file": "card_358_thrill.png",
+    "text": "THRILL",
+    "index": 358,
+    "tr": "heyecan"
+  },
+  {
+    "file": "card_359_briefcase.png",
+    "text": "BRIEFCASE",
+    "index": 359,
+    "tr": "evrak çantası"
+  },
+  {
+    "file": "card_360_player.png",
+    "text": "PLAYER",
+    "index": 360,
+    "tr": "oyuncu"
+  },
+  {
+    "file": "card_361_broom.png",
+    "text": "BROOM",
+    "index": 361,
+    "tr": "süpürge"
+  },
+  {
+    "file": "card_362_o_nerd.png",
+    "text": "O NERD",
+    "index": 362,
+    "tr": "ah inek"
+  },
+  {
+    "file": "card_363_lazy.png",
+    "text": "LAZY",
+    "index": 363,
+    "tr": "tembel"
+  },
+  {
+    "file": "card_364_amazed.png",
+    "text": "AMAZED",
+    "index": 364,
+    "tr": "hayret"
+  },
+  {
+    "file": "card_365_grich_.png",
+    "text": "GRICH $",
+    "index": 365,
+    "tr": "grich $"
+  },
+  {
+    "file": "card_366_humble.png",
+    "text": "HUMBLE",
+    "index": 366,
+    "tr": "mütevazı"
+  },
+  {
+    "file": "card_367_grind.png",
+    "text": "GRIND",
+    "index": 367,
+    "tr": "öğütmek"
+  },
+  {
+    "file": "card_368_attack.png",
+    "text": "ATTACK",
+    "index": 368,
+    "tr": "saldırı"
+  },
+  {
+    "file": "card_369_escalator.png",
+    "text": "ESCALATOR",
+    "index": 369,
+    "tr": "yürüyen merdiven"
+  },
+  {
+    "file": "card_370_z4_sprawl.png",
+    "text": "Z4 SPRAWL",
+    "index": 370,
+    "tr": "z4 yayılması"
+  },
+  {
+    "file": "card_371_electronic.png",
+    "text": "ELECTRONIC",
+    "index": 371,
+    "tr": "elektronik"
+  },
+  {
+    "file": "card_372_no_one.png",
+    "text": "NO ONE",
+    "index": 372,
+    "tr": "hiç kimse"
+  },
+  {
+    "file": "card_373_purse.png",
+    "text": "PURSE",
+    "index": 373,
+    "tr": "el çantası"
+  },
+  {
+    "file": "card_374_gasoline.png",
+    "text": "GASOLINE",
+    "index": 374,
+    "tr": "benzin"
+  },
+  {
+    "file": "card_375_doubt.png",
+    "text": "DOUBT",
+    "index": 375,
+    "tr": "şüphe"
+  },
+  {
+    "file": "card_376_gun.png",
+    "text": "GUN",
+    "index": 376,
+    "tr": "silah"
+  },
+  {
+    "file": "card_377_mumble.png",
+    "text": "MUMBLE",
+    "index": 377,
+    "tr": "mırıltı"
+  },
+  {
+    "file": "card_378_repairperson.png",
+    "text": "REPAIRPERSON",
+    "index": 378,
+    "tr": "tamirci"
+  },
+  {
+    "file": "card_379_expect.png",
+    "text": "EXPECT",
+    "index": 379,
+    "tr": "beklemek"
+  },
+  {
+    "file": "card_380_detail.png",
+    "text": "DETAIL",
+    "index": 380,
+    "tr": "detay"
+  },
+  {
+    "file": "card_381_cigarette.png",
+    "text": "CIGARETTE",
+    "index": 381,
+    "tr": "sigara"
+  },
+  {
+    "file": "card_382_discount.png",
+    "text": "DISCOUNT",
     "index": 382,
-    "tr": "pazarlık"
+    "tr": "indirim"
   },
   {
-    "file": "card_383_tune_in.png",
-    "text": "TUNE IN",
+    "file": "card_383_spiral.png",
+    "text": "SPIRAL",
     "index": 383,
-    "tr": "uyum sağlamak"
+    "tr": "sarmal"
   },
   {
-    "file": "card_384_point.png",
-    "text": "POINT",
+    "file": "card_384_trash.png",
+    "text": "TRASH",
     "index": 384,
-    "tr": "nokta"
+    "tr": "çöp"
   },
   {
-    "file": "card_385_actress.png",
-    "text": "ACTRESS",
+    "file": "card_385_tin.png",
+    "text": "TIN",
     "index": 385,
-    "tr": "aktris"
+    "tr": "kalay"
   },
   {
-    "file": "card_386_view.png",
-    "text": "VIEW",
+    "file": "card_386_surprise.png",
+    "text": "SURPRISE",
     "index": 386,
-    "tr": "görüş"
+    "tr": "sürpriz"
   },
   {
-    "file": "card_387_stain.png",
-    "text": "STAIN",
+    "file": "card_387_note.png",
+    "text": "NOTE",
     "index": 387,
-    "tr": "lekelemek"
+    "tr": "Not"
   },
   {
-    "file": "card_388_insult.png",
-    "text": "INSULT",
+    "file": "card_388_instructor.png",
+    "text": "INSTRUCTOR",
     "index": 388,
-    "tr": "hakaret"
+    "tr": "eğitmen"
   },
   {
-    "file": "card_389_natural.png",
-    "text": "NATURAL",
+    "file": "card_389_interesting.png",
+    "text": "INTERESTING",
     "index": 389,
-    "tr": "doğal"
+    "tr": "ilginç"
   },
   {
-    "file": "card_390_wristwatch.png",
-    "text": "WRISTWATCH",
+    "file": "card_390_hiker.png",
+    "text": "HIKER",
     "index": 390,
-    "tr": "kol saati"
+    "tr": "uzun yürüyüşe çıkan kimse"
   },
   {
-    "file": "card_391_awning.png",
-    "text": "AWNING",
+    "file": "card_391_someday.png",
+    "text": "SOMEDAY",
     "index": 391,
-    "tr": "tente"
+    "tr": "bir gün"
   },
   {
-    "file": "card_392_fashionable.png",
-    "text": "FASHIONABLE",
+    "file": "card_392_stunt.png",
+    "text": "STUNT",
     "index": 392,
-    "tr": "moda"
+    "tr": "gösteri"
   },
   {
-    "file": "card_393_sunday.png",
-    "text": "SUNDAY",
+    "file": "card_393_including.png",
+    "text": "INCLUDING",
     "index": 393,
-    "tr": "Pazar"
+    "tr": "içermek"
   },
   {
-    "file": "card_394_governor.png",
-    "text": "GOVERNOR",
+    "file": "card_394_a_bit_off.png",
+    "text": "A BIT OFF",
     "index": 394,
-    "tr": "Vali"
+    "tr": "biraz kapalı"
   },
   {
-    "file": "card_395_loudly.png",
-    "text": "LOUDLY",
+    "file": "card_395_tech.png",
+    "text": "TECH",
     "index": 395,
-    "tr": "yüksek sesle"
+    "tr": "teknoloji"
   },
   {
-    "file": "card_396_totals_0.png",
-    "text": "TOTALS 0",
+    "file": "card_396_behave.png",
+    "text": "BEHAVE",
     "index": 396,
-    "tr": "toplamlar 0"
+    "tr": "davranmak"
   },
   {
-    "file": "card_397__drunk.png",
-    "text": "- DRUNK",
+    "file": "card_397_have_a_knack.png",
+    "text": "HAVE A KNACK",
     "index": 397,
-    "tr": "- sarhoş"
+    "tr": "bir yeteneğe sahip olmak"
   },
   {
-    "file": "card_398_hot_take.png",
-    "text": "HOT TAKE",
+    "file": "card_398_therefore.png",
+    "text": "THEREFORE",
     "index": 398,
-    "tr": "sıcak çekim"
+    "tr": "Öyleyse"
   },
   {
-    "file": "card_399_flawless.png",
-    "text": "FLAWLESS",
+    "file": "card_399_million.png",
+    "text": "MILLION",
     "index": 399,
-    "tr": "kusursuz"
+    "tr": "milyon"
   },
   {
-    "file": "card_400_relieved.png",
-    "text": "RELIEVED",
+    "file": "card_400_decipher.png",
+    "text": "DECIPHER",
     "index": 400,
-    "tr": "rahatlamak"
+    "tr": "şifreyi çözmek"
   },
   {
-    "file": "card_401_brick.png",
-    "text": "BRICK",
+    "file": "card_401_sightsee.png",
+    "text": "SIGHTSEE",
     "index": 401,
-    "tr": "tuğla"
+    "tr": "gezi"
   },
   {
-    "file": "card_402_tidy.png",
-    "text": "TIDY",
+    "file": "card_402_rough.png",
+    "text": "ROUGH",
     "index": 402,
-    "tr": "düzenli"
+    "tr": "kaba"
   },
   {
-    "file": "card_403_chemist.png",
-    "text": "CHEMIST",
+    "file": "card_403_badge.png",
+    "text": "BADGE",
     "index": 403,
-    "tr": "kimyager"
+    "tr": "rozet"
   },
   {
-    "file": "card_404_pronounce.png",
-    "text": "PRONOUNCE",
+    "file": "card_404_stall.png",
+    "text": "STALL",
     "index": 404,
-    "tr": "telaffuz etmek"
+    "tr": "durak"
   },
   {
-    "file": "card_405_assure.png",
-    "text": "ASSURE",
+    "file": "card_405_hurricane.png",
+    "text": "HURRICANE",
     "index": 405,
-    "tr": "garanti etmek"
+    "tr": "kasırga"
   },
   {
-    "file": "card_406_insecure.png",
-    "text": "INSECURE",
+    "file": "card_406_alive.png",
+    "text": "ALIVE",
     "index": 406,
-    "tr": "güvensiz"
+    "tr": "canlı"
   },
   {
-    "file": "card_407_as_needed.png",
-    "text": "AS NEEDED",
+    "file": "card_407_employ.png",
+    "text": "EMPLOY",
     "index": 407,
-    "tr": "gerektiği gibi"
+    "tr": "istihdam etmek"
   },
   {
-    "file": "card_408_vlog.png",
-    "text": "VLOG",
+    "file": "card_408_pull.png",
+    "text": "PULL",
     "index": 408,
-    "tr": "vlog"
+    "tr": "çekmek"
   },
   {
-    "file": "card_409_following.png",
-    "text": "FOLLOWING",
+    "file": "card_409_get_over.png",
+    "text": "GET OVER",
     "index": 409,
-    "tr": "takip etme"
+    "tr": "üstesinden gelmek"
   },
   {
-    "file": "card_410_rip.png",
-    "text": "RIP",
+    "file": "card_410_smoke.png",
+    "text": "SMOKE",
     "index": 410,
-    "tr": "Huzur içinde yatsın"
+    "tr": "duman"
   },
   {
-    "file": "card_411_somewhere.png",
-    "text": "SOMEWHERE",
+    "file": "card_411_reunion.png",
+    "text": "REUNION®",
     "index": 411,
-    "tr": "bir yerde"
+    "tr": "birleşme®"
   },
   {
-    "file": "card_412_trading.png",
-    "text": "TRADING",
+    "file": "card_412_helpful.png",
+    "text": "HELPFUL",
     "index": 412,
-    "tr": "ticaret"
+    "tr": "yardımsever"
   },
   {
-    "file": "card_413_single.png",
-    "text": "SINGLE",
+    "file": "card_413_main.png",
+    "text": "MAIN",
     "index": 413,
-    "tr": "Bekar"
+    "tr": "ana"
   },
   {
-    "file": "card_414_comma.png",
-    "text": "COMMA",
+    "file": "card_414_negative.png",
+    "text": "NEGATIVE",
     "index": 414,
-    "tr": "virgül"
+    "tr": "negatif"
   },
   {
-    "file": "card_415_wrap.png",
-    "text": "WRAP",
+    "file": "card_415_shard.png",
+    "text": "SHARD",
     "index": 415,
-    "tr": "dürüm"
+    "tr": "kırık"
   },
   {
-    "file": "card_416_amenity.png",
-    "text": "AMENITY",
+    "file": "card_416_tempt.png",
+    "text": "TEMPT",
     "index": 416,
-    "tr": "tatlılık"
+    "tr": "baştan çıkarmak"
   },
   {
-    "file": "card_417_skiing.png",
-    "text": "SKIING",
+    "file": "card_417_sure.png",
+    "text": "SURE",
     "index": 417,
-    "tr": "kayak yapma"
+    "tr": "Elbette"
   },
   {
-    "file": "card_418_survivor.png",
-    "text": "SURVIVOR",
+    "file": "card_418_cheat.png",
+    "text": "CHEAT",
     "index": 418,
-    "tr": "hayatta kalan"
+    "tr": "aldatmak"
   },
   {
-    "file": "card_419_open_up.png",
-    "text": "OPEN UP",
+    "file": "card_419_cover_1174.png",
+    "text": "COVER 1174",
     "index": 419,
-    "tr": "açılmak"
+    "tr": "kapak 1174"
   },
   {
-    "file": "card_420_flooding.png",
-    "text": "FLOODING",
+    "file": "card_420_maths_4.png",
+    "text": "MATHS 4",
     "index": 420,
-    "tr": "sel"
+    "tr": "matematik 4"
   },
   {
-    "file": "card_421_kingdom.png",
-    "text": "KINGDOM",
+    "file": "card_421_secure.png",
+    "text": "SECURE",
     "index": 421,
-    "tr": "krallık"
+    "tr": "güvenli"
   },
   {
-    "file": "card_422_idiot.png",
-    "text": "IDIOT",
+    "file": "card_422_rural.png",
+    "text": "RURAL",
     "index": 422,
-    "tr": "salak"
+    "tr": "kırsal"
   },
   {
-    "file": "card_423_raw.png",
-    "text": "RAW",
+    "file": "card_423_prefix.png",
+    "text": "PREFIX",
     "index": 423,
-    "tr": "çiğ"
+    "tr": "önek"
   },
   {
-    "file": "card_424_reptile.png",
-    "text": "REPTILE",
+    "file": "card_424_panic.png",
+    "text": "PANIC",
     "index": 424,
-    "tr": "sürüngen"
+    "tr": "panik"
   },
   {
-    "file": "card_425_bull.png",
-    "text": "BULL",
+    "file": "card_425_bride.png",
+    "text": "BRIDE",
     "index": 425,
-    "tr": "boğa"
+    "tr": "gelin"
   },
   {
-    "file": "card_426_offender.png",
-    "text": "OFFENDER",
+    "file": "card_426_paycheck.png",
+    "text": "PAYCHECK",
     "index": 426,
-    "tr": "suçlu"
+    "tr": "maaş çeki"
   },
   {
-    "file": "card_427_trouble.png",
-    "text": "TROUBLE",
+    "file": "card_427_come_down_to_something.png",
+    "text": "COME DOWN TO SOMETHING",
     "index": 427,
-    "tr": "bela"
+    "tr": "bir şeye gelmek"
   },
   {
-    "file": "card_428_in_common.png",
-    "text": "IN COMMON",
+    "file": "card_428_justice.png",
+    "text": "JUSTICE",
     "index": 428,
-    "tr": "ortak"
+    "tr": "adalet"
   },
   {
-    "file": "card_429_messy.png",
-    "text": "MESSY",
+    "file": "card_429_internship.png",
+    "text": "INTERNSHIP",
     "index": 429,
-    "tr": "dağınık"
+    "tr": "staj"
   },
   {
-    "file": "card_430_level.png",
-    "text": "LEVEL",
+    "file": "card_430_selfless.png",
+    "text": "SELFLESS",
     "index": 430,
-    "tr": "seviye"
+    "tr": "özverili"
   },
   {
-    "file": "card_431_embarrassed.png",
-    "text": "EMBARRASSED",
+    "file": "card_431_midnight.png",
+    "text": "MIDNIGHT",
     "index": 431,
-    "tr": "utanmış"
+    "tr": "gece yarısı"
   },
   {
-    "file": "card_432_ending.png",
-    "text": "ENDING",
+    "file": "card_432_misplace.png",
+    "text": "MISPLACE",
     "index": 432,
-    "tr": "bitiş"
+    "tr": "yanlış yere koymak"
   },
   {
-    "file": "card_433_unemployment_benefit.png",
-    "text": "UNEMPLOYMENT BENEFIT",
+    "file": "card_433_twist.png",
+    "text": "TWIST",
     "index": 433,
-    "tr": "işsizlik maaşı"
+    "tr": "büküm"
   },
   {
-    "file": "card_434_deliberate.png",
-    "text": "DELIBERATE",
+    "file": "card_434_stationery.png",
+    "text": "STATIONERY",
     "index": 434,
-    "tr": "kasıtlı"
+    "tr": "kırtasiye"
   },
   {
-    "file": "card_435_give_yourself_something_to_aim_for.png",
-    "text": "GIVE YOURSELF SOMETHING TO AIM FOR",
+    "file": "card_435_poison.png",
+    "text": "POISON",
     "index": 435,
-    "tr": "kendine hedefleyeceğin bir şey ver"
+    "tr": "zehir"
   },
   {
-    "file": "card_436_obsess.png",
-    "text": "OBSESS",
+    "file": "card_436_effort.png",
+    "text": "EFFORT",
     "index": 436,
-    "tr": "takıntılı olmak"
+    "tr": "çaba"
   },
   {
-    "file": "card_437_recognize.png",
-    "text": "RECOGNIZE",
+    "file": "card_437_relative.png",
+    "text": "RELATIVE",
     "index": 437,
-    "tr": "tanımak"
+    "tr": "akraba"
   },
   {
-    "file": "card_438_ease.png",
-    "text": "EASE",
+    "file": "card_438_someone.png",
+    "text": "SOMEONE",
     "index": 438,
-    "tr": "kolaylaştırmak"
+    "tr": "birisi"
   },
   {
-    "file": "card_439_freeway.png",
-    "text": "FREEWAY",
+    "file": "card_439_unsuitable.png",
+    "text": "UNSUITABLE",
     "index": 439,
-    "tr": "Otoban"
+    "tr": "uygunsuz"
   },
   {
-    "file": "card_440_litter.png",
-    "text": "LITTER",
+    "file": "card_440_disconnect.png",
+    "text": "DISCONNECT",
     "index": 440,
-    "tr": "yavrulamak"
+    "tr": "bağlantıyı kes"
   },
   {
-    "file": "card_441__noun.png",
-    "text": "• NOUN",
+    "file": "card_441_oneway.png",
+    "text": "ONE-WAY",
     "index": 441,
-    "tr": "• isim"
+    "tr": "Tek Yön"
   },
   {
-    "file": "card_442_emerge.png",
-    "text": "EMERGE",
+    "file": "card_442_crop.png",
+    "text": "CROP",
     "index": 442,
-    "tr": "meydana gelmek"
+    "tr": "mahsul"
   },
   {
-    "file": "card_443_stan.png",
-    "text": "STAN",
+    "file": "card_443_timetable.png",
+    "text": "TIMETABLE",
     "index": 443,
-    "tr": "stan"
+    "tr": "zaman çizelgesi"
   },
   {
-    "file": "card_444_parcel.png",
-    "text": "PARCEL",
+    "file": "card_444_period.png",
+    "text": "PERIOD",
     "index": 444,
-    "tr": "parsel"
+    "tr": "dönem"
   },
   {
-    "file": "card_445_substitute.png",
-    "text": "SUBSTITUTE",
+    "file": "card_445_gush_in.png",
+    "text": "GUSH IN",
     "index": 445,
-    "tr": "yerine geçmek"
+    "tr": "fışkırmak"
   },
   {
-    "file": "card_446_troop.png",
-    "text": "TROOP",
+    "file": "card_446_ring.png",
+    "text": "RING",
     "index": 446,
-    "tr": "birlik"
+    "tr": "yüzük"
   },
   {
-    "file": "card_447_hundred.png",
-    "text": "HUNDRED",
+    "file": "card_447_ahead.png",
+    "text": "AHEAD",
     "index": 447,
-    "tr": "yüz"
+    "tr": "ilerde"
   },
   {
-    "file": "card_448_position.png",
-    "text": "POSITION",
+    "file": "card_448_vet.png",
+    "text": "VET",
     "index": 448,
-    "tr": "konum"
+    "tr": "veteriner"
   },
   {
-    "file": "card_449_no_way.png",
-    "text": "NO WAY",
+    "file": "card_449_holder.png",
+    "text": "HOLDER",
     "index": 449,
-    "tr": "Mümkün değil"
+    "tr": "tutucu"
   },
   {
-    "file": "card_450_dishonest.png",
-    "text": "DISHONEST",
+    "file": "card_450_pastry.png",
+    "text": "PASTRY",
     "index": 450,
-    "tr": "sahtekâr"
+    "tr": "pasta"
   },
   {
-    "file": "card_451_past.png",
-    "text": "PAST",
+    "file": "card_451_fix.png",
+    "text": "FIX",
     "index": 451,
-    "tr": "geçmiş"
+    "tr": "düzeltmek"
   },
   {
-    "file": "card_452_dive.png",
-    "text": "DIVE",
+    "file": "card_452_dialect.png",
+    "text": "DIALECT",
     "index": 452,
-    "tr": "dalmak"
+    "tr": "lehçe"
   },
   {
-    "file": "card_453_metre.png",
-    "text": "METRE",
+    "file": "card_453_anxious.png",
+    "text": "ANXIOUS",
     "index": 453,
-    "tr": "metre"
+    "tr": "endişeli"
   },
   {
-    "file": "card_454_demolish.png",
-    "text": "DEMOLISH",
+    "file": "card_454_virus.png",
+    "text": "VIRUS",
     "index": 454,
-    "tr": "yıkmak"
+    "tr": "virüs"
   },
   {
-    "file": "card_455_lad.png",
-    "text": "LAD®",
+    "file": "card_455_sprawling.png",
+    "text": "SPRAWLING",
     "index": 455,
-    "tr": "delikanlı®"
+    "tr": "yayılan"
   },
   {
-    "file": "card_456_increase.png",
-    "text": "INCREASE",
+    "file": "card_456_teller.png",
+    "text": "TELLER",
     "index": 456,
-    "tr": "arttırmak"
+    "tr": "veznedar"
   },
   {
-    "file": "card_457_cottage.png",
-    "text": "COTTAGE",
+    "file": "card_457_metal.png",
+    "text": "METAL",
     "index": 457,
-    "tr": "kır evi"
+    "tr": "maden"
   },
   {
-    "file": "card_458_get_back.png",
-    "text": "GET BACK",
+    "file": "card_458_turn_off.png",
+    "text": "TURN OFF",
     "index": 458,
-    "tr": "geri dön"
+    "tr": "kapamak"
   },
   {
-    "file": "card_459_housing.png",
-    "text": "HOUSING",
+    "file": "card_459_melt.png",
+    "text": "MELT",
     "index": 459,
-    "tr": "konut"
+    "tr": "eritmek"
   },
   {
-    "file": "card_460_plethora.png",
-    "text": "PLETHORA",
+    "file": "card_460_gossip.png",
+    "text": "GOSSIP",
     "index": 460,
-    "tr": "bolluk"
+    "tr": "dedikodu"
   },
   {
-    "file": "card_461_payoff.png",
-    "text": "PAYOFF",
+    "file": "card_461_ups_and_downs.png",
+    "text": "UPS AND DOWNS",
     "index": 461,
-    "tr": "hesabı kapatmak"
+    "tr": "inişler ve çıkışlar"
   },
   {
-    "file": "card_462_seasonal.png",
-    "text": "SEASONAL",
+    "file": "card_462_reorder.png",
+    "text": "REORDER",
     "index": 462,
-    "tr": "mevsimsel"
+    "tr": "yeniden sıralamak"
   },
   {
-    "file": "card_463_waffle.png",
-    "text": "WAFFLE",
+    "file": "card_463_wrinkle.png",
+    "text": "WRINKLE",
     "index": 463,
-    "tr": "gözleme"
+    "tr": "kırışıklık"
   },
   {
-    "file": "card_464_give_out.png",
-    "text": "GIVE OUT",
+    "file": "card_464_kilogram.png",
+    "text": "KILOGRAM",
     "index": 464,
-    "tr": "dağıtmak"
+    "tr": "kilogram"
   },
   {
-    "file": "card_465_visitor.png",
-    "text": "VISITOR",
+    "file": "card_465_pull_out.png",
+    "text": "PULL OUT",
     "index": 465,
-    "tr": "ziyaretçi"
+    "tr": "dışarı çekmek"
   },
   {
-    "file": "card_466_invent.png",
-    "text": "INVENT",
+    "file": "card_466_disaster.png",
+    "text": "DISASTER",
     "index": 466,
-    "tr": "icat etmek"
+    "tr": "felaket"
   },
   {
-    "file": "card_467_deepfake.png",
-    "text": "DEEPFAKE",
+    "file": "card_467_narrow.png",
+    "text": "NARROW",
     "index": 467,
-    "tr": "derin sahte"
+    "tr": "dar"
   },
   {
-    "file": "card_468_mean_714.png",
-    "text": "MEAN 714",
+    "file": "card_468_bridge.png",
+    "text": "BRIDGE",
     "index": 468,
-    "tr": "ortalama 714"
+    "tr": "köprü"
   },
   {
-    "file": "card_469_bring_back.png",
-    "text": "BRING BACK",
+    "file": "card_469_human.png",
+    "text": "HUMAN",
     "index": 469,
-    "tr": "geri getir"
+    "tr": "insan"
   },
   {
-    "file": "card_470_toss.png",
-    "text": "TOSS",
+    "file": "card_470_file.png",
+    "text": "FILE",
     "index": 470,
-    "tr": "atmak"
+    "tr": "dosya"
   },
   {
-    "file": "card_471_crowdsource.png",
-    "text": "CROWDSOURCE",
+    "file": "card_471_concerned.png",
+    "text": "CONCERNED",
     "index": 471,
-    "tr": "kitle kaynağı"
+    "tr": "endişeli"
   },
   {
-    "file": "card_472_turn_back_dau.png",
-    "text": "TURN BACK DAU!",
+    "file": "card_472_hardworking.png",
+    "text": "HARDWORKING",
     "index": 472,
-    "tr": "arkanı dön dostum!"
+    "tr": "Çalışkan"
   },
   {
-    "file": "card_473_rest.png",
-    "text": "REST",
+    "file": "card_473_crime.png",
+    "text": "CRIME",
     "index": 473,
-    "tr": "dinlenmek"
+    "tr": "suç"
   },
   {
-    "file": "card_474_get_in_touch.png",
-    "text": "GET IN TOUCH",
+    "file": "card_474_service.png",
+    "text": "SERVICE",
     "index": 474,
-    "tr": "iletişime geç"
+    "tr": "hizmet"
   },
   {
-    "file": "card_475_slap_.png",
-    "text": "SLAP /",
+    "file": "card_475_airfare.png",
+    "text": "AIRFARE",
     "index": 475,
-    "tr": "tokat /"
+    "tr": "uçak bileti"
   },
   {
-    "file": "card_476_subtweet.png",
-    "text": "SUBTWEET",
+    "file": "card_476_explanation.png",
+    "text": "EXPLANATION",
     "index": 476,
-    "tr": "alt tweet"
+    "tr": "açıklama"
   },
   {
-    "file": "card_477_pilot.png",
-    "text": "PILOT",
+    "file": "card_477_vegetarian.png",
+    "text": "VEGETARIAN",
     "index": 477,
-    "tr": "pilot"
+    "tr": "vejetaryen"
   },
   {
-    "file": "card_478_drawer.png",
-    "text": "DRAWER",
+    "file": "card_478_bewilderment.png",
+    "text": "BEWILDERMENT",
     "index": 478,
-    "tr": "çekmece"
+    "tr": "şaşkınlık"
   },
   {
-    "file": "card_479_raft.png",
-    "text": "RAFT",
+    "file": "card_479_shove.png",
+    "text": "SHOVE",
     "index": 479,
-    "tr": "sal"
+    "tr": "kıpırdamak"
   },
   {
-    "file": "card_480_soak.png",
-    "text": "SOAK",
+    "file": "card_480_spa.png",
+    "text": "\"SPA",
     "index": 480,
-    "tr": "emmek"
+    "tr": "\"spa"
+  },
+  {
+    "file": "card_481_escalate.png",
+    "text": "ESCALATE",
+    "index": 481,
+    "tr": "gerilimi tırmandırmak"
+  },
+  {
+    "file": "card_482_alcoholic.png",
+    "text": "ALCOHOLIC",
+    "index": 482,
+    "tr": "alkollü"
+  },
+  {
+    "file": "card_483_blazer.png",
+    "text": "BLAZER",
+    "index": 483,
+    "tr": "ceket"
+  },
+  {
+    "file": "card_484_locker.png",
+    "text": "LOCKER",
+    "index": 484,
+    "tr": "soyunma"
+  },
+  {
+    "file": "card_485_workshop.png",
+    "text": "WORKSHOP",
+    "index": 485,
+    "tr": "atölye"
+  },
+  {
+    "file": "card_486_rule_of_thumb.png",
+    "text": "RULE OF THUMB",
+    "index": 486,
+    "tr": "temel kural"
+  },
+  {
+    "file": "card_487_unimportant.png",
+    "text": "UNIMPORTANT",
+    "index": 487,
+    "tr": "önemsiz"
+  },
+  {
+    "file": "card_488_beautiful.png",
+    "text": "BEAUTIFUL",
+    "index": 488,
+    "tr": "Güzel"
+  },
+  {
+    "file": "card_489_advertising.png",
+    "text": "ADVERTISING",
+    "index": 489,
+    "tr": "reklam"
+  },
+  {
+    "file": "card_490__trap.png",
+    "text": "• TRAP",
+    "index": 490,
+    "tr": "• tuzak"
+  },
+  {
+    "file": "card_491_put_off.png",
+    "text": "PUT OFF",
+    "index": 491,
+    "tr": "ertelemek"
+  },
+  {
+    "file": "card_492_gosh.png",
+    "text": "GOSH",
+    "index": 492,
+    "tr": "Tanrım"
+  },
+  {
+    "file": "card_493_wildlife.png",
+    "text": "WILDLIFE",
+    "index": 493,
+    "tr": "yaban hayatı"
+  },
+  {
+    "file": "card_494_go_over.png",
+    "text": "GO OVER",
+    "index": 494,
+    "tr": "üzerinden geçmek"
+  },
+  {
+    "file": "card_495_upertin_mile.png",
+    "text": "UPERTIN MILE",
+    "index": 495,
+    "tr": "upertin mili"
+  },
+  {
+    "file": "card_496_fierce.png",
+    "text": "FIERCE",
+    "index": 496,
+    "tr": "şiddetli"
+  },
+  {
+    "file": "card_497_ferry.png",
+    "text": "FERRY",
+    "index": 497,
+    "tr": "feribot"
+  },
+  {
+    "file": "card_498_horn.png",
+    "text": "HORN",
+    "index": 498,
+    "tr": "korna"
+  },
+  {
+    "file": "card_499_statue.png",
+    "text": "STATUE",
+    "index": 499,
+    "tr": "heykel"
+  },
+  {
+    "file": "card_500_race.png",
+    "text": "RACE",
+    "index": 500,
+    "tr": "ırk"
+  },
+  {
+    "file": "card_501_bonding.png",
+    "text": "BONDING",
+    "index": 501,
+    "tr": "bağlama"
+  },
+  {
+    "file": "card_502_tool.png",
+    "text": "TOOL",
+    "index": 502,
+    "tr": "alet"
+  },
+  {
+    "file": "card_503_notice.png",
+    "text": "NOTICE",
+    "index": 503,
+    "tr": "fark etme"
+  },
+  {
+    "file": "card_504_quit.png",
+    "text": "QUIT",
+    "index": 504,
+    "tr": "çıkış yapmak"
+  },
+  {
+    "file": "card_505_escalate.png",
+    "text": "ESCALATE",
+    "index": 505,
+    "tr": "gerilimi tırmandırmak"
+  },
+  {
+    "file": "card_506_alcoholic.png",
+    "text": "ALCOHOLIC",
+    "index": 506,
+    "tr": "alkollü"
+  },
+  {
+    "file": "card_507_blazer.png",
+    "text": "BLAZER",
+    "index": 507,
+    "tr": "ceket"
+  },
+  {
+    "file": "card_508_locker.png",
+    "text": "LOCKER",
+    "index": 508,
+    "tr": "soyunma"
+  },
+  {
+    "file": "card_509_workshop.png",
+    "text": "WORKSHOP",
+    "index": 509,
+    "tr": "atölye"
+  },
+  {
+    "file": "card_510_rule_of_thumb.png",
+    "text": "RULE OF THUMB",
+    "index": 510,
+    "tr": "temel kural"
+  },
+  {
+    "file": "card_511_unimportant.png",
+    "text": "UNIMPORTANT",
+    "index": 511,
+    "tr": "önemsiz"
+  },
+  {
+    "file": "card_512_beautiful.png",
+    "text": "BEAUTIFUL",
+    "index": 512,
+    "tr": "Güzel"
+  },
+  {
+    "file": "card_513_advertising.png",
+    "text": "ADVERTISING",
+    "index": 513,
+    "tr": "reklam"
+  },
+  {
+    "file": "card_514__trap.png",
+    "text": "• TRAP",
+    "index": 514,
+    "tr": "• tuzak"
+  },
+  {
+    "file": "card_515_put_off.png",
+    "text": "PUT OFF",
+    "index": 515,
+    "tr": "ertelemek"
+  },
+  {
+    "file": "card_516_gosh.png",
+    "text": "GOSH",
+    "index": 516,
+    "tr": "Tanrım"
+  },
+  {
+    "file": "card_517_wildlife.png",
+    "text": "WILDLIFE",
+    "index": 517,
+    "tr": "yaban hayatı"
+  },
+  {
+    "file": "card_518_go_over.png",
+    "text": "GO OVER",
+    "index": 518,
+    "tr": "üzerinden geçmek"
+  },
+  {
+    "file": "card_519_upertin_mile.png",
+    "text": "UPERTIN MILE",
+    "index": 519,
+    "tr": "upertin mili"
+  },
+  {
+    "file": "card_520_fierce.png",
+    "text": "FIERCE",
+    "index": 520,
+    "tr": "şiddetli"
+  },
+  {
+    "file": "card_521_ferry.png",
+    "text": "FERRY",
+    "index": 521,
+    "tr": "feribot"
+  },
+  {
+    "file": "card_522_horn.png",
+    "text": "HORN",
+    "index": 522,
+    "tr": "korna"
+  },
+  {
+    "file": "card_523_statue.png",
+    "text": "STATUE",
+    "index": 523,
+    "tr": "heykel"
+  },
+  {
+    "file": "card_524_race.png",
+    "text": "RACE",
+    "index": 524,
+    "tr": "ırk"
+  },
+  {
+    "file": "card_525_bonding.png",
+    "text": "BONDING",
+    "index": 525,
+    "tr": "bağlama"
+  },
+  {
+    "file": "card_526_tool.png",
+    "text": "TOOL",
+    "index": 526,
+    "tr": "alet"
+  },
+  {
+    "file": "card_527_notice.png",
+    "text": "NOTICE",
+    "index": 527,
+    "tr": "fark etme"
+  },
+  {
+    "file": "card_528_quit.png",
+    "text": "QUIT",
+    "index": 528,
+    "tr": "çıkış yapmak"
   }
 ]
