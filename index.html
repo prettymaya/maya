@@ -207,6 +207,7 @@
 <div class="top-bar">
     <div class="logo">📚 Vocabulary</div>
     <div class="top-right">
+        <button class="api-btn" onclick="location.reload()" title="Sayfayı yenile">🔄</button>
         <button class="api-btn" id="api-status-btn" onclick="showApiModal()">🔑 API</button>
         <div class="counter">
             <span id="current-pair">0</span> / <span id="total-pairs">0</span>
@@ -224,8 +225,9 @@
 <div class="bottom-bar">
     <div class="hint"><kbd>←</kbd> Geri</div>
     <div class="hint"><kbd>→</kbd> İleri</div>
+    <div class="hint"><kbd>Tık</kbd> İleri</div>
     <div class="hint"><kbd>Çift Tık</kbd> Çeviri</div>
-    <div class="hint"><kbd>✨</kbd> AI Buton</div>
+    <div class="hint"><kbd>✨</kbd> AI</div>
     <div class="swipe-hint">← Kaydır → &nbsp;|&nbsp; Çift dokun: Çeviri</div>
 </div>
 <div class="progress-bar" id="progress-bar"></div>
@@ -454,7 +456,7 @@ document.addEventListener('click', function(e) {
     nextPair();
 });
 
-document.addEventListener('contextmenu', function(e) { e.preventDefault(); prevPair(); });
+// Sag tik engeli kaldirildi - sayfa yenilenebilir
 
 // Touch
 var touchStartX = 0, touchStartY = 0, touchStartTime = 0;
