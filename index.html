@@ -18,7 +18,7 @@
         body {
             font-family:'Inter',sans-serif; background:#0a0e1a; color:#e0e0e0;
             min-height:100vh; min-height:100dvh; display:flex; flex-direction:column;
-            align-items:center; justify-content:center; overflow:hidden;
+            align-items:center; justify-content:center; overflow-x:hidden;
             user-select:none; -webkit-user-select:none; cursor:pointer;
         }
 
@@ -106,7 +106,7 @@
             transition:max-height 0.4s ease,opacity 0.3s ease,padding 0.3s ease;
             padding:0 14px; user-select:text; cursor:text;
         }
-        .ai-result.visible { max-height:300px; opacity:1; padding:10px 14px; overflow-y:auto; }
+        .ai-result.visible { max-height:none; opacity:1; padding:10px 14px; overflow-y:visible; }
         .ai-result strong { color:#a855f7; }
         .ai-result em { color:#818cf8; font-style:normal; }
 
@@ -176,7 +176,7 @@
             transition:max-height 0.4s ease,opacity 0.3s ease,padding 0.3s ease;
             user-select:text; cursor:text;
         }
-        .lookup-result.visible { max-height:300px; opacity:1; padding:12px 16px; overflow-y:auto; }
+        .lookup-result.visible { max-height:180px; opacity:1; padding:12px 16px; overflow-y:auto; }
         .lookup-result strong { color:#a855f7; }
         .lookup-result em { color:#818cf8; font-style:normal; }
         .lookup-result .lookup-word { font-size:14px; font-weight:700; color:#a855f7; margin-bottom:6px; }
@@ -253,8 +253,9 @@
             .search-bar button { padding:5px 10px; font-size:11px; }
             .lookup-result {
                 bottom:calc(86px + env(safe-area-inset-bottom,0px));
-                max-height:200px; width:94%; max-width:400px;
+                max-width:400px; width:94%;
             }
+            .lookup-result.visible { max-height:160px; }
             .ai-result.visible { max-height:220px; font-size:11px; }
             .toast { top:50px; font-size:12px; padding:6px 16px; }
         }
@@ -271,6 +272,67 @@
         }
         .empty-state { text-align:center; color:#445566; }
         .empty-state h2 { font-size:20px; margin-bottom:10px; color:#667788; }
+
+        /* Hamburger menü butonu */
+        .menu-btn {
+            font-size:18px; background:none; border:1px solid rgba(74,122,245,0.25);
+            color:#4a7af5; cursor:pointer; padding:4px 8px; border-radius:8px;
+            transition:all 0.2s; line-height:1;
+            background:rgba(74,122,245,0.08);
+        }
+        .menu-btn:hover { background:rgba(74,122,245,0.18); }
+
+        /* Yan menü overlay */
+        .menu-overlay {
+            position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:200;
+            opacity:0; pointer-events:none; transition:opacity 0.3s ease;
+            backdrop-filter:blur(4px); -webkit-backdrop-filter:blur(4px);
+        }
+        .menu-overlay.open { opacity:1; pointer-events:auto; }
+
+        /* Yan menü paneli */
+        .side-menu {
+            position:fixed; top:0; left:0; bottom:0; width:340px; max-width:85vw;
+            background:#111827; z-index:210; padding:20px;
+            transform:translateX(-100%); transition:transform 0.3s ease;
+            overflow-y:auto; display:flex; flex-direction:column; gap:16px;
+            border-right:1px solid rgba(74,122,245,0.15);
+            box-shadow:4px 0 30px rgba(0,0,0,0.5);
+        }
+        .side-menu.open { transform:translateX(0); }
+        .menu-header {
+            display:flex; justify-content:space-between; align-items:center;
+            padding-bottom:12px; border-bottom:1px solid rgba(74,122,245,0.12);
+        }
+        .menu-header h3 { font-size:16px; color:#e0e0e0; font-weight:700; }
+        .menu-close {
+            background:none; border:none; color:#667799; font-size:20px;
+            cursor:pointer; padding:4px 8px; border-radius:6px; transition:all 0.2s;
+        }
+        .menu-close:hover { color:#e0e0e0; background:rgba(255,255,255,0.05); }
+
+        /* Oyun kartları */
+        .game-card {
+            background:rgba(74,122,245,0.06); border:1px solid rgba(74,122,245,0.15);
+            border-radius:12px; padding:14px; cursor:pointer;
+            transition:all 0.2s; position:relative;
+        }
+        .game-card:hover { background:rgba(74,122,245,0.1); border-color:rgba(74,122,245,0.3); }
+        .game-card:active { transform:scale(0.98); }
+        .game-card-title {
+            font-size:13px; font-weight:700; color:#4a7af5; margin-bottom:8px;
+            display:flex; align-items:center; gap:6px;
+        }
+        .game-card-text {
+            font-size:12px; color:#a0b8e8; line-height:1.6;
+            user-select:text; -webkit-user-select:text;
+        }
+        .game-card .copy-hint {
+            font-size:10px; color:#445566; margin-top:8px;
+            display:flex; align-items:center; gap:4px;
+        }
+        .game-card.copied { border-color:#28a745; }
+        .game-card.copied .copy-hint { color:#28a745; }
     </style>
 </head>
 <body>
@@ -289,6 +351,7 @@
 </div>
 
 <div class="top-bar">
+    <button class="menu-btn" onclick="toggleMenu(); event.stopPropagation();" title="Menü">☰</button>
     <div class="logo">📚 Vocabulary</div>
     <div class="top-right">
         <button class="api-btn" onclick="location.reload()" title="Sayfayı yenile">🔄</button>
@@ -296,6 +359,25 @@
         <div class="counter">
             <span id="current-pair">0</span> / <span id="total-pairs">0</span>
         </div>
+    </div>
+</div>
+
+<!-- Yan Menü -->
+<div class="menu-overlay" id="menu-overlay" onclick="toggleMenu()"></div>
+<div class="side-menu" id="side-menu" onclick="event.stopPropagation();">
+    <div class="menu-header">
+        <h3>🎮 Maya Oyunları</h3>
+        <button class="menu-close" onclick="toggleMenu()">✕</button>
+    </div>
+    <div class="game-card" onclick="copyGameText(this, 'synonym')">
+        <div class="game-card-title">🔤 Synonym Game</div>
+        <div class="game-card-text" id="game-synonym">Maya, let's play a synonym game. I will say one English word, and you must reply with ONLY ONE synonym. No sentences, no explanations, just one word. After you reply, I will immediately say my next word. Let's keep it fast. Ready? Here we go!</div>
+        <div class="copy-hint">📋 Kopyalamak için dokun</div>
+    </div>
+    <div class="game-card" onclick="copyGameText(this, 'question')">
+        <div class="game-card-title">❓ Question Game</div>
+        <div class="game-card-text" id="game-question">Maya, now let's switch to a new game. I will ask you a question using a specific English word. Please answer my question in 2-3 short sentences. After you answer, I will ask a completely new question about a different topic. The topics will jump around randomly, that's normal. Ready?</div>
+        <div class="copy-hint">📋 Kopyalamak için dokun</div>
     </div>
 </div>
 
@@ -673,6 +755,42 @@ document.addEventListener('touchend', function(e) {
         if (dx > 0) nextPair(); else prevPair();
     }
 }, { passive: true });
+
+// Yan Menü
+function toggleMenu() {
+    document.getElementById('side-menu').classList.toggle('open');
+    document.getElementById('menu-overlay').classList.toggle('open');
+}
+
+function copyGameText(cardEl, type) {
+    var textEl = document.getElementById('game-' + type);
+    var text = textEl.textContent;
+    if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(function() {
+            showCopyFeedback(cardEl);
+        });
+    } else {
+        // Fallback
+        var ta = document.createElement('textarea');
+        ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        showCopyFeedback(cardEl);
+    }
+}
+
+function showCopyFeedback(cardEl) {
+    cardEl.classList.add('copied');
+    var hint = cardEl.querySelector('.copy-hint');
+    var orig = hint.textContent;
+    hint.textContent = '✅ Kopyalandı!';
+    showToast('📋 Metin kopyalandı!');
+    setTimeout(function() {
+        cardEl.classList.remove('copied');
+        hint.textContent = orig;
+    }, 2000);
+}
 
 initApiModal();
 loadCards();
