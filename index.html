@@ -147,23 +147,28 @@
             position:fixed; bottom:46px; left:50%; transform:translateX(-50%);
             display:flex; gap:6px; align-items:center; z-index:15;
             background:rgba(15,20,35,0.95); border:1px solid rgba(168,85,247,0.2);
-            border-radius:12px; padding:5px 6px 5px 14px; max-width:460px; width:90%;
-            backdrop-filter:blur(8px);
+            border-radius:12px; padding:5px 6px 5px 14px; max-width:520px; width:92%;
+            backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);
         }
         .search-bar input {
             flex:1; background:none; border:none; color:#e0e0e0; font-size:14px;
-            font-family:'Inter',sans-serif; outline:none;
+            font-family:'Inter',sans-serif; outline:none; min-width:0;
         }
         .search-bar input::placeholder { color:#445566; }
+        .search-bar .search-btns { display:flex; gap:4px; flex-shrink:0; }
         .search-bar button {
-            padding:6px 12px; border:none; border-radius:8px; background:#a855f7;
+            padding:6px 12px; border:none; border-radius:8px;
             color:white; font-family:'Inter',sans-serif; font-size:12px;
             font-weight:700; cursor:pointer; white-space:nowrap;
+            transition:all 0.2s;
         }
-        .search-bar button:hover { background:#9333ea; }
+        .search-bar .btn-navigate { background:#4a7af5; }
+        .search-bar .btn-navigate:hover { background:#5a8aff; }
+        .search-bar .btn-ai { background:#a855f7; }
+        .search-bar .btn-ai:hover { background:#9333ea; }
         .lookup-result {
             position:fixed; bottom:90px; left:50%; transform:translateX(-50%);
-            max-width:460px; width:90%; z-index:15;
+            max-width:520px; width:92%; z-index:15;
             font-size:12px; color:#c4b5fd; text-align:left; line-height:1.6;
             padding:0; background:rgba(168,85,247,0.08);
             border:1px solid rgba(168,85,247,0.2); border-radius:12px;
@@ -171,7 +176,7 @@
             transition:max-height 0.4s ease,opacity 0.3s ease,padding 0.3s ease;
             user-select:text; cursor:text;
         }
-        .lookup-result.visible { max-height:250px; opacity:1; padding:12px 16px; overflow-y:auto; }
+        .lookup-result.visible { max-height:300px; opacity:1; padding:12px 16px; overflow-y:auto; }
         .lookup-result strong { color:#a855f7; }
         .lookup-result em { color:#818cf8; font-style:normal; }
         .lookup-result .lookup-word { font-size:14px; font-weight:700; color:#a855f7; margin-bottom:6px; }
@@ -179,6 +184,18 @@
             position:absolute; top:6px; right:8px; background:none; border:none;
             color:#667799; font-size:14px; cursor:pointer;
         }
+
+        /* Toast bildirim */
+        .toast {
+            position:fixed; top:60px; left:50%; transform:translateX(-50%) translateY(-20px);
+            background:rgba(74,122,245,0.95); color:white; padding:8px 20px;
+            border-radius:10px; font-size:13px; font-weight:600;
+            z-index:50; opacity:0; pointer-events:none;
+            transition:opacity 0.3s ease,transform 0.3s ease;
+            box-shadow:0 4px 16px rgba(74,122,245,0.3);
+        }
+        .toast.visible { opacity:1; transform:translateX(-50%) translateY(0); }
+        .toast.not-found { background:rgba(239,68,68,0.9); box-shadow:0 4px 16px rgba(239,68,68,0.3); }
 
         /* Modal */
         .modal-overlay {
@@ -210,6 +227,15 @@
         .btn-skip { background:rgba(255,255,255,0.05); color:#667799; border:1px solid rgba(255,255,255,0.08) !important; }
         .btn-skip:hover { background:rgba(255,255,255,0.1); }
 
+        /* Kart highlight animasyonu */
+        @keyframes cardHighlight {
+            0% { box-shadow:0 0 0 0 rgba(74,122,245,0.6); }
+            50% { box-shadow:0 0 20px 6px rgba(74,122,245,0.4); }
+            100% { box-shadow:0 4px 20px rgba(0,0,0,0.4),0 0 40px rgba(74,122,245,0.06); }
+        }
+        .card.highlight { animation:cardHighlight 1.2s ease-out; }
+
+        /* iPhone / Mobil */
         @media (max-width:700px) {
             .cards-container { flex-direction:column; align-items:center; gap:16px; padding:0 16px; }
             .card-wrapper { max-width:360px; width:100%; }
@@ -217,11 +243,31 @@
             .nav-arrow { display:none; }
             .swipe-hint { display:block; }
             .hint { display:none; }
-            .bottom-bar { padding:10px 16px; gap:10px; }
+            .bottom-bar { padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px)); gap:10px; }
             .top-bar { padding:10px 14px; }
+            .search-bar {
+                bottom:calc(42px + env(safe-area-inset-bottom,0px));
+                width:94%; max-width:400px; padding:4px 5px 4px 12px;
+            }
+            .search-bar input { font-size:13px; }
+            .search-bar button { padding:5px 10px; font-size:11px; }
+            .lookup-result {
+                bottom:calc(86px + env(safe-area-inset-bottom,0px));
+                max-height:200px; width:94%; max-width:400px;
+            }
+            .ai-result.visible { max-height:220px; font-size:11px; }
+            .toast { top:50px; font-size:12px; padding:6px 16px; }
         }
+        /* Tablet */
         @media (min-width:701px) and (max-width:1024px) {
             .card-wrapper { max-width:380px; }
+        }
+        /* MacBook Air ve büyük ekranlar */
+        @media (min-width:1025px) {
+            .cards-container { gap:32px; }
+            .card-wrapper { max-width:500px; }
+            .search-bar { max-width:560px; }
+            .lookup-result { max-width:560px; }
         }
         .empty-state { text-align:center; color:#445566; }
         .empty-state h2 { font-size:20px; margin-bottom:10px; color:#667788; }
@@ -260,10 +306,14 @@
     <div class="empty-state"><h2>Yükleniyor...</h2></div>
 </div>
 
+<div class="toast" id="toast"></div>
 <div class="lookup-result" id="lookup-result"></div>
 <div class="search-bar" onclick="event.stopPropagation();">
-    <input type="text" id="search-input" placeholder="Kelime yaz, Enter bas..." autocomplete="off">
-    <button onclick="doLookup()">✨ Ara</button>
+    <input type="text" id="search-input" placeholder="Kelime yaz..." autocomplete="off">
+    <div class="search-btns">
+        <button class="btn-navigate" onclick="searchAndNavigate()" title="Kartlarda bul ve git">🔍 Bul</button>
+        <button class="btn-ai" onclick="doLookup()" title="AI ile çevir">✨ Ara</button>
+    </div>
 </div>
 
 <div class="bottom-bar">
@@ -271,6 +321,7 @@
     <div class="hint"><kbd>→</kbd> İleri</div>
     <div class="hint"><kbd>Tık</kbd> İleri</div>
     <div class="hint"><kbd>Çift Tık</kbd> Çeviri</div>
+    <div class="hint"><kbd>🔍</kbd> Bul</div>
     <div class="hint"><kbd>✨</kbd> AI</div>
     <div class="swipe-hint">← Kaydır → &nbsp;|&nbsp; Çift dokun: Çeviri</div>
 </div>
@@ -413,14 +464,13 @@ function askGemini(position, cardIndex, word) {
     btn.textContent = '⏳';
 
     var prompt = 'İngilizce kelime/ifade: "' + word + '"\n\n' +
-        'Bu kelimenin/ifadenin Türkçe karşılığını ver. Kurallar:\n' +
-        '1. En yaygın 4 anlamını yaz (varsa). Her anlam için kelime türünü belirt (isim, fiil, sıfat vs.)\n' +
-        '2. Çok doğal, günlük Türkçe kullan\n' +
-        '3. Eğer bu bir deyim/idiom ise kısa ve net açıkla\n' +
-        '4. Eğer tek kelimeyle açıklanamıyorsa çok kısa bir açıklama ekle\n' +
-        '5. Cevabı şu formatta ver, başka bir şey yazma:\n\n' +
-        '1. [tür] anlam\n2. [tür] anlam\n3. [tür] anlam\n4. [tür] anlam\n' +
-        '(varsa) 💡 kısa açıklama';
+        'Bu kelimenin tüm kelime türlerindeki Türkçe karşılıklarını ver. Kurallar:\n' +
+        '1. Kelimenin varolan her türünü yaz (isim, fiil, sıfat, zarf, bağlaç, edat, zamir, ünlem). En fazla 8 madde.\n' +
+        '2. Her madde için kelime türünü ve en doğal Türkçe karşılığını yaz\n' +
+        '3. Her maddeye çok kısa bir açıklama ekle (1 cümle, günlük Türkçe)\n' +
+        '4. Eğer kelime deyim/idiom ise kısaca açıkla\n' +
+        '5. Sadece var olan türleri yaz, zorlama yapma\n\n' +
+        'Format:\n1. [tür] anlam — kısa açıklama\n2. [tür] anlam — kısa açıklama\n...\n(varsa) 💡 kullanım notu';
 
     var body = {
         contents: [{
@@ -428,7 +478,7 @@ function askGemini(position, cardIndex, word) {
         }],
         generationConfig: {
             temperature: 0.3,
-            maxOutputTokens: 200
+            maxOutputTokens: 350
         }
     };
 
@@ -485,7 +535,60 @@ function showAiResult(position, html) {
     el.classList.add('visible');
 }
 
-// Kelime arama
+// Kelime arama (kartlarda bul ve git)
+function searchAndNavigate() {
+    var input = document.getElementById('search-input');
+    var word = input.value.trim();
+    if (!word) return;
+
+    var searchWord = word.toUpperCase();
+    var foundCard = null;
+    for (var i = 0; i < cards.length; i++) {
+        if (cards[i].text.toUpperCase() === searchWord) {
+            foundCard = cards[i];
+            break;
+        }
+    }
+    // Kısmi eşleşme dene
+    if (!foundCard) {
+        for (var i = 0; i < cards.length; i++) {
+            if (cards[i].text.toUpperCase().indexOf(searchWord) >= 0) {
+                foundCard = cards[i];
+                break;
+            }
+        }
+    }
+
+    if (foundCard) {
+        var pairIndex = Math.floor((foundCard.index - 1) / 2);
+        showPair(pairIndex);
+        showToast('📍 "' + foundCard.text + '" bulundu! (Kart #' + foundCard.index + ')');
+        // Kartı highlight et
+        setTimeout(function() {
+            var position = (foundCard.index - 1) % 2;
+            var wrapper = document.querySelector('.card-wrapper[data-position="' + position + '"]');
+            if (wrapper) {
+                var cardEl = wrapper.querySelector('.card');
+                if (cardEl) {
+                    cardEl.classList.add('highlight');
+                    setTimeout(function() { cardEl.classList.remove('highlight'); }, 1500);
+                }
+            }
+        }, 200);
+    } else {
+        showToast('❌ "' + word + '" kartlarda bulunamadı', true);
+    }
+    input.value = '';
+}
+
+function showToast(message, isError) {
+    var toast = document.getElementById('toast');
+    toast.textContent = message;
+    toast.className = 'toast visible' + (isError ? ' not-found' : '');
+    setTimeout(function() { toast.className = 'toast'; }, 2500);
+}
+
+// AI ile kelime arama
 function doLookup() {
     var input = document.getElementById('search-input');
     var word = input.value.trim();
@@ -497,16 +600,15 @@ function doLookup() {
     lr.classList.add('visible');
 
     var prompt = 'İngilizce kelime/ifade: "' + word + '"\n\n' +
-        'Bu kelimenin/ifadenin Türkçe karşılığını ver. Kurallar:\n' +
-        '1. En yaygın 4 anlamını yaz (varsa). Her anlam için kelime türünü belirt (isim, fiil, sıfat vs.)\n' +
-        '2. Çok doğal, günlük Türkçe kullan\n' +
-        '3. Eğer bu bir deyim/idiom ise kısa ve net açıkla\n' +
-        '4. Eğer tek kelimeyle açıklanamıyorsa çok kısa bir açıklama ekle\n' +
-        '5. Cevabı şu formatta ver, başka bir şey yazma:\n\n' +
-        '1. [tür] anlam\n2. [tür] anlam\n3. [tür] anlam\n4. [tür] anlam\n' +
-        '(varsa) 💡 kısa açıklama';
+        'Bu kelimenin tüm kelime türlerindeki Türkçe karşılıklarını ver. Kurallar:\n' +
+        '1. Kelimenin varolan her türünü yaz (isim, fiil, sıfat, zarf, bağlaç, edat, zamir, ünlem). En fazla 8 madde.\n' +
+        '2. Her madde için kelime türünü ve en doğal Türkçe karşılığını yaz\n' +
+        '3. Her maddeye çok kısa bir açıklama ekle (1 cümle, günlük Türkçe)\n' +
+        '4. Eğer kelime deyim/idiom ise kısaca açıkla\n' +
+        '5. Sadece var olan türleri yaz, zorlama yapma\n\n' +
+        'Format:\n1. [tür] anlam — kısa açıklama\n2. [tür] anlam — kısa açıklama\n...\n(varsa) 💡 kullanım notu';
 
-    var body = { contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.3, maxOutputTokens: 200 } };
+    var body = { contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.3, maxOutputTokens: 350 } };
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=' + apiKey, true);
     xhr.setRequestHeader('Content-Type', 'application/json');
@@ -534,7 +636,7 @@ function closeLookup() {
 }
 
 document.getElementById('search-input').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') { e.preventDefault(); doLookup(); }
+    if (e.key === 'Enter') { e.preventDefault(); searchAndNavigate(); }
     e.stopPropagation();
 });
 
